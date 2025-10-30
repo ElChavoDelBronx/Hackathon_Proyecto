@@ -1,0 +1,87 @@
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-box {
+    background-color: #1E1E1E;
+    padding: 40px 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    text-align: center;
+    width: 400px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.logo-img {
+    width: 160px;
+    height: auto;
+}
+
+h4 {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.form-control {
+    background-color: #2C2C2C;
+    border: none;
+    color: #fff;
+}
+
+.form-control:focus {
+    background-color: #2C2C2C;
+    color: #fff;
+    box-shadow: 0 0 0 0.2rem rgba(166, 138, 243, 0.4);
+}
+
+.user-type {
+    margin-top: 10px;
+}
+
+.user-option {
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.user-option p {
+    margin-top: 6px;
+    font-size: 0.9rem;
+}
+
+.user-icon {
+    width: 55px;
+    height: 55px;
+    filter: invert(82%) sepia(45%) saturate(500%) hue-rotate(230deg) brightness(95%) contrast(90%);
+    transition: transform 0.2s ease;
+}
+
+.user-option:hover .user-icon {
+    transform: scale(1.1);
+}
+
+.btn-register {
+    background-color: #a68af3;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-register:hover {
+    background-color: #8d76e0;
+}

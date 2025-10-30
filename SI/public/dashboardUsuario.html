@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panel - DeGrant</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="dashboardUsuario.css">
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <div class="sidebar d-flex flex-column align-items-center py-3">
+    <img src="logo.png" alt="DeGrant" class="logo mb-4">
+    <a href="#" class="icon-link"><i class="bi bi-house-door-fill"></i></a>
+    <a href="#" class="icon-link"><i class="bi bi-book-fill"></i></a>
+    <a href="#" class="icon-link"><i class="bi bi-award-fill"></i></a>
+    <a href="#" class="icon-link"><i class="bi bi-bell-fill"></i></a>
+    <a href="#" class="icon-link"><i class="bi bi-gear-fill"></i></a>
+  </div>
+
+  <!-- Main content -->
+  <div class="main-content">
+    <nav class="navbar navbar-dark">
+      <div class="container-fluid d-flex justify-content-between">
+        <span class="navbar-brand mb-0 h1">
+          <img src="images/DeGrant 1.png" height="30" alt="DeGrant"> DeGrant
+        </span>
+        <div class="d-flex align-items-center">
+          <span class="text-light me-3">Notificaciones</span>
+          <div class="user-info">Usuario132</div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-4">
+      <h3 class="text-white">¡Hola <span class="highlight">Usuario132</span>! Bienvenido a DeGrant!</h3>
+      <p class="text-light small">Aquí puedes ver tus becas activas, cursos y oportunidades disponibles</p>
+
+      <!-- Cards principales -->
+      <div class="row mt-4 g-3">
+        <div class="col-md-4">
+          <div class="info-card text-center p-3">
+            <i class="bi bi-lightning-charge-fill"></i>
+            <h5>BECAS ACTIVAS</h5>
+            <p>Becas que estás disfrutando</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="info-card text-center p-3">
+            <i class="bi bi-hourglass-split"></i>
+            <h5>SOLICITUDES PENDIENTES</h5>
+            <p>Becas en revisión</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="info-card text-center p-3">
+            <i class="bi bi-mortarboard-fill"></i>
+            <h5>CURSOS EN PROGRESO</h5>
+            <p>Cursos que estás tomando</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Progreso -->
+      <div class="progress-section mt-5 p-4 text-center">
+        <h5>PROGRESO TOTAL: <span class="highlight">70%</span></h5>
+        <div class="progress mt-3" style="height: 20px;">
+          <div class="progress-bar bg-gradient" role="progressbar" style="width: 70%"></div>
+        </div>
+      </div>
+
+      <!-- Carrusel suave -->
+      <div class="mt-5">
+        <h5 class="text-white">RECOMENDACIONES / SUGERENCIAS</h5>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade mt-3" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/libros1.png" class="d-block w-100 rounded" alt="Beca 1">
+            </div>
+            <div class="carousel-item">
+              <img src="images/libros2.png" class="d-block w-100 rounded" alt="Beca 2">
+            </div>
+            <div class="carousel-item">
+              <img src="images/libros3.png" class="d-block w-100 rounded" alt="Beca 3">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Noticias -->
+      <div class="mt-5">
+        <h5 class="text-white">NOTICIAS Y ACTIVIDAD RECIENTE</h5>
+        <div class="row g-3 mt-3">
+          <div class="col-md-4">
+            <div class="news-card p-3 text-center">
+              <i class="bi bi-globe2"></i>
+              <p>"Tu solicitud de beca Innovadores Web fue aprobada"</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="news-card p-3 text-center">
+              <i class="bi bi-cpu"></i>
+              <p>"Curso Blockchain Básico completado"</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="news-card p-3 text-center">
+              <i class="bi bi-lightbulb"></i>
+              <p>"Nuevo curso disponible: Diseño Web Futurista"</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
