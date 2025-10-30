@@ -1,5 +1,5 @@
-   0.245605100s  INFO prepare_target{force=false package_id=hello-world v0.0.0 (C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\contracts\hello-world) target="hello_world"}: cargo::core::compiler::fingerprint: fingerprint error for hello-world v0.0.0 (C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\contracts\hello-world)/Check { test: false }/TargetInner { name_inferred: true, doctest: false, ..: lib_target("hello_world", ["lib", "cdylib"], "C:\\Users\\USER\\Desktop\\Lenguajes\\Rust\\Hackathon_Proyecto\\de-grant-contract\\contracts\\hello-world\\src\\lib.rs", Edition2021) }
-   0.245667000s  INFO prepare_target{force=false package_id=hello-world v0.0.0 (C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\contracts\hello-world) target="hello_world"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\hello-world-d3042ca270a311a4\lib-hello_world`
+   0.301924500s  INFO prepare_target{force=false package_id=hello-world v0.0.0 (C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\contracts\hello-world) target="hello_world"}: cargo::core::compiler::fingerprint: fingerprint error for hello-world v0.0.0 (C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\contracts\hello-world)/Check { test: false }/TargetInner { name_inferred: true, doctest: false, ..: lib_target("hello_world", ["lib", "cdylib"], "C:\\Users\\carlo\\OneDrive\\Desktop\\Hackathon_Proyecto\\de-grant-contract\\contracts\\hello-world\\src\\lib.rs", Edition2021) }
+   0.302002700s  INFO prepare_target{force=false package_id=hello-world v0.0.0 (C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\contracts\hello-world) target="hello_world"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\hello-world-d3042ca270a311a4\lib-hello_world`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -26,8 +26,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   0.256520700s  INFO prepare_target{force=false package_id=soroban-sdk v23.0.3 target="soroban_sdk"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-sdk v23.0.3/Check { test: false }/TargetInner { doctest: false, ..: lib_target("soroban_sdk", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-sdk-23.0.3\\src\\lib.rs", Edition2021) }
-   0.256549600s  INFO prepare_target{force=false package_id=soroban-sdk v23.0.3 target="soroban_sdk"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\soroban-sdk-d11a37e39339a116\lib-soroban_sdk`
+   0.321028300s  INFO prepare_target{force=false package_id=soroban-sdk v23.0.3 target="soroban_sdk"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-sdk v23.0.3/Check { test: false }/TargetInner { doctest: false, ..: lib_target("soroban_sdk", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-sdk-23.0.3\\src\\lib.rs", Edition2021) }
+   0.321060100s  INFO prepare_target{force=false package_id=soroban-sdk v23.0.3 target="soroban_sdk"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\soroban-sdk-d11a37e39339a116\lib-soroban_sdk`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -55,8 +55,8 @@ Stack backtrace:
   19: git_midx_writer_dump
   20: BaseThreadInitThunk
   21: RtlUserThreadStart
-   0.257817900s  INFO prepare_target{force=false package_id=arbitrary v1.3.2 target="arbitrary"}: cargo::core::compiler::fingerprint: fingerprint error for arbitrary v1.3.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("arbitrary", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\arbitrary-1.3.2\\src\\lib.rs", Edition2021) }
-   0.257840100s  INFO prepare_target{force=false package_id=arbitrary v1.3.2 target="arbitrary"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\arbitrary-2f683753977d5ffa\lib-arbitrary`
+   0.322433700s  INFO prepare_target{force=false package_id=arbitrary v1.3.2 target="arbitrary"}: cargo::core::compiler::fingerprint: fingerprint error for arbitrary v1.3.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("arbitrary", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\arbitrary-1.3.2\\src\\lib.rs", Edition2021) }
+   0.322460300s  INFO prepare_target{force=false package_id=arbitrary v1.3.2 target="arbitrary"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\arbitrary-2f683753977d5ffa\lib-arbitrary`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -85,8 +85,8 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.263413300s  INFO prepare_target{force=false package_id=ctor v0.5.0 target="ctor"}: cargo::core::compiler::fingerprint: fingerprint error for ctor v0.5.0/Check { test: false }/TargetInner { ..: lib_target("ctor", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ctor-0.5.0\\src\\lib.rs", Edition2021) }
-   0.263435100s  INFO prepare_target{force=false package_id=ctor v0.5.0 target="ctor"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ctor-ab18a2834e80faba\lib-ctor`
+   0.329913700s  INFO prepare_target{force=false package_id=ctor v0.5.0 target="ctor"}: cargo::core::compiler::fingerprint: fingerprint error for ctor v0.5.0/Check { test: false }/TargetInner { ..: lib_target("ctor", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ctor-0.5.0\\src\\lib.rs", Edition2021) }
+   0.329949100s  INFO prepare_target{force=false package_id=ctor v0.5.0 target="ctor"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ctor-ab18a2834e80faba\lib-ctor`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -115,8 +115,8 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.264289300s  INFO prepare_target{force=false package_id=dtor v0.1.0 target="dtor"}: cargo::core::compiler::fingerprint: fingerprint error for dtor v0.1.0/Check { test: false }/TargetInner { ..: lib_target("dtor", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\dtor-0.1.0\\src\\lib.rs", Edition2021) }
-   0.264306400s  INFO prepare_target{force=false package_id=dtor v0.1.0 target="dtor"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\dtor-f5d46b3e714f662e\lib-dtor`
+   0.330916500s  INFO prepare_target{force=false package_id=dtor v0.1.0 target="dtor"}: cargo::core::compiler::fingerprint: fingerprint error for dtor v0.1.0/Check { test: false }/TargetInner { ..: lib_target("dtor", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\dtor-0.1.0\\src\\lib.rs", Edition2021) }
+   0.330946500s  INFO prepare_target{force=false package_id=dtor v0.1.0 target="dtor"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\dtor-f5d46b3e714f662e\lib-dtor`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -146,8 +146,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.265075500s  INFO prepare_target{force=false package_id=ed25519-dalek v2.2.0 target="ed25519_dalek"}: cargo::core::compiler::fingerprint: fingerprint error for ed25519-dalek v2.2.0/Check { test: false }/TargetInner { ..: lib_target("ed25519_dalek", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ed25519-dalek-2.2.0\\src\\lib.rs", Edition2021) }
-   0.265094100s  INFO prepare_target{force=false package_id=ed25519-dalek v2.2.0 target="ed25519_dalek"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ed25519-dalek-06d1f4114f471e03\lib-ed25519_dalek`
+   0.332647000s  INFO prepare_target{force=false package_id=ed25519-dalek v2.2.0 target="ed25519_dalek"}: cargo::core::compiler::fingerprint: fingerprint error for ed25519-dalek v2.2.0/Check { test: false }/TargetInner { ..: lib_target("ed25519_dalek", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ed25519-dalek-2.2.0\\src\\lib.rs", Edition2021) }
+   0.332680700s  INFO prepare_target{force=false package_id=ed25519-dalek v2.2.0 target="ed25519_dalek"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ed25519-dalek-06d1f4114f471e03\lib-ed25519_dalek`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -176,8 +176,8 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.265916100s  INFO prepare_target{force=false package_id=curve25519-dalek v4.1.3 target="curve25519_dalek"}: cargo::core::compiler::fingerprint: fingerprint error for curve25519-dalek v4.1.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("curve25519_dalek", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\curve25519-dalek-4.1.3\\src\\lib.rs", Edition2021) }
-   0.265963000s  INFO prepare_target{force=false package_id=curve25519-dalek v4.1.3 target="curve25519_dalek"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\curve25519-dalek-f031e591f33e8817\lib-curve25519_dalek`
+   0.333830300s  INFO prepare_target{force=false package_id=curve25519-dalek v4.1.3 target="curve25519_dalek"}: cargo::core::compiler::fingerprint: fingerprint error for curve25519-dalek v4.1.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("curve25519_dalek", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\curve25519-dalek-4.1.3\\src\\lib.rs", Edition2021) }
+   0.333868300s  INFO prepare_target{force=false package_id=curve25519-dalek v4.1.3 target="curve25519_dalek"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\curve25519-dalek-f031e591f33e8817\lib-curve25519_dalek`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -207,8 +207,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.266816500s  INFO prepare_target{force=false package_id=cfg-if v1.0.4 target="cfg_if"}: cargo::core::compiler::fingerprint: fingerprint error for cfg-if v1.0.4/Check { test: false }/TargetInner { ..: lib_target("cfg_if", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\cfg-if-1.0.4\\src\\lib.rs", Edition2018) }
-   0.266839200s  INFO prepare_target{force=false package_id=cfg-if v1.0.4 target="cfg_if"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\cfg-if-20bb53187b6715fb\lib-cfg_if`
+   0.334874700s  INFO prepare_target{force=false package_id=cfg-if v1.0.4 target="cfg_if"}: cargo::core::compiler::fingerprint: fingerprint error for cfg-if v1.0.4/Check { test: false }/TargetInner { ..: lib_target("cfg_if", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\cfg-if-1.0.4\\src\\lib.rs", Edition2018) }
+   0.334897600s  INFO prepare_target{force=false package_id=cfg-if v1.0.4 target="cfg_if"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\cfg-if-20bb53187b6715fb\lib-cfg_if`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -239,8 +239,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.267515600s  INFO prepare_target{force=false package_id=cpufeatures v0.2.17 target="cpufeatures"}: cargo::core::compiler::fingerprint: fingerprint error for cpufeatures v0.2.17/Check { test: false }/TargetInner { ..: lib_target("cpufeatures", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\cpufeatures-0.2.17\\src\\lib.rs", Edition2018) }
-   0.267535600s  INFO prepare_target{force=false package_id=cpufeatures v0.2.17 target="cpufeatures"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\cpufeatures-3020ffd0b9e8c469\lib-cpufeatures`
+   0.335665800s  INFO prepare_target{force=false package_id=cpufeatures v0.2.17 target="cpufeatures"}: cargo::core::compiler::fingerprint: fingerprint error for cpufeatures v0.2.17/Check { test: false }/TargetInner { ..: lib_target("cpufeatures", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\cpufeatures-0.2.17\\src\\lib.rs", Edition2018) }
+   0.335689600s  INFO prepare_target{force=false package_id=cpufeatures v0.2.17 target="cpufeatures"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\cpufeatures-3020ffd0b9e8c469\lib-cpufeatures`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -271,8 +271,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.275904600s  INFO prepare_target{force=false package_id=digest v0.10.7 target="digest"}: cargo::core::compiler::fingerprint: fingerprint error for digest v0.10.7/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("digest", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\digest-0.10.7\\src\\lib.rs", Edition2018) }
-   0.275940600s  INFO prepare_target{force=false package_id=digest v0.10.7 target="digest"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\digest-e1d7d0686dac89bc\lib-digest`
+   0.338295100s  INFO prepare_target{force=false package_id=digest v0.10.7 target="digest"}: cargo::core::compiler::fingerprint: fingerprint error for digest v0.10.7/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("digest", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\digest-0.10.7\\src\\lib.rs", Edition2018) }
+   0.338320600s  INFO prepare_target{force=false package_id=digest v0.10.7 target="digest"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\digest-e1d7d0686dac89bc\lib-digest`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -303,8 +303,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.276557900s  INFO prepare_target{force=false package_id=block-buffer v0.10.4 target="block_buffer"}: cargo::core::compiler::fingerprint: fingerprint error for block-buffer v0.10.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("block_buffer", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\block-buffer-0.10.4\\src\\lib.rs", Edition2018) }
-   0.276574800s  INFO prepare_target{force=false package_id=block-buffer v0.10.4 target="block_buffer"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\block-buffer-d429c2d8a274e459\lib-block_buffer`
+   0.339321100s  INFO prepare_target{force=false package_id=block-buffer v0.10.4 target="block_buffer"}: cargo::core::compiler::fingerprint: fingerprint error for block-buffer v0.10.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("block_buffer", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\block-buffer-0.10.4\\src\\lib.rs", Edition2018) }
+   0.339354900s  INFO prepare_target{force=false package_id=block-buffer v0.10.4 target="block_buffer"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\block-buffer-d429c2d8a274e459\lib-block_buffer`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -336,8 +336,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.277031800s  INFO prepare_target{force=false package_id=generic-array v0.14.9 target="generic_array"}: cargo::core::compiler::fingerprint: fingerprint error for generic-array v0.14.9/Check { test: false }/TargetInner { ..: lib_target("generic_array", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\generic-array-0.14.9\\src\\lib.rs", Edition2015) }
-   0.277048100s  INFO prepare_target{force=false package_id=generic-array v0.14.9 target="generic_array"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\generic-array-d78b46613cd585d3\lib-generic_array`
+   0.340327200s  INFO prepare_target{force=false package_id=generic-array v0.14.9 target="generic_array"}: cargo::core::compiler::fingerprint: fingerprint error for generic-array v0.14.9/Check { test: false }/TargetInner { ..: lib_target("generic_array", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\generic-array-0.14.9\\src\\lib.rs", Edition2015) }
+   0.340352800s  INFO prepare_target{force=false package_id=generic-array v0.14.9 target="generic_array"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\generic-array-d78b46613cd585d3\lib-generic_array`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -370,8 +370,8 @@ Stack backtrace:
   24: git_midx_writer_dump
   25: BaseThreadInitThunk
   26: RtlUserThreadStart
-   0.278783900s  INFO prepare_target{force=false package_id=typenum v1.19.0 target="typenum"}: cargo::core::compiler::fingerprint: fingerprint error for typenum v1.19.0/Check { test: false }/TargetInner { ..: lib_target("typenum", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\typenum-1.19.0\\src\\lib.rs", Edition2018) }
-   0.278803900s  INFO prepare_target{force=false package_id=typenum v1.19.0 target="typenum"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\typenum-bd531a55d84148be\lib-typenum`
+   0.342237700s  INFO prepare_target{force=false package_id=typenum v1.19.0 target="typenum"}: cargo::core::compiler::fingerprint: fingerprint error for typenum v1.19.0/Check { test: false }/TargetInner { ..: lib_target("typenum", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\typenum-1.19.0\\src\\lib.rs", Edition2018) }
+   0.342261300s  INFO prepare_target{force=false package_id=typenum v1.19.0 target="typenum"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\typenum-bd531a55d84148be\lib-typenum`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -405,8 +405,8 @@ Stack backtrace:
   25: git_midx_writer_dump
   26: BaseThreadInitThunk
   27: RtlUserThreadStart
-   0.280374600s  INFO prepare_target{force=false package_id=zeroize v1.8.2 target="zeroize"}: cargo::core::compiler::fingerprint: fingerprint error for zeroize v1.8.2/Check { test: false }/TargetInner { ..: lib_target("zeroize", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeroize-1.8.2\\src\\lib.rs", Edition2021) }
-   0.280393600s  INFO prepare_target{force=false package_id=zeroize v1.8.2 target="zeroize"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\zeroize-ee1cffb0c4fb71cb\lib-zeroize`
+   0.344163500s  INFO prepare_target{force=false package_id=zeroize v1.8.2 target="zeroize"}: cargo::core::compiler::fingerprint: fingerprint error for zeroize v1.8.2/Check { test: false }/TargetInner { ..: lib_target("zeroize", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeroize-1.8.2\\src\\lib.rs", Edition2021) }
+   0.344194200s  INFO prepare_target{force=false package_id=zeroize v1.8.2 target="zeroize"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\zeroize-ee1cffb0c4fb71cb\lib-zeroize`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -440,8 +440,8 @@ Stack backtrace:
   25: git_midx_writer_dump
   26: BaseThreadInitThunk
   27: RtlUserThreadStart
-   0.281225800s  INFO prepare_target{force=false package_id=const-oid v0.9.6 target="const_oid"}: cargo::core::compiler::fingerprint: fingerprint error for const-oid v0.9.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("const_oid", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\const-oid-0.9.6\\src\\lib.rs", Edition2021) }
-   0.281242100s  INFO prepare_target{force=false package_id=const-oid v0.9.6 target="const_oid"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\const-oid-1d4e14ebfa3b22b3\lib-const_oid`
+   0.345137300s  INFO prepare_target{force=false package_id=const-oid v0.9.6 target="const_oid"}: cargo::core::compiler::fingerprint: fingerprint error for const-oid v0.9.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("const_oid", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\const-oid-0.9.6\\src\\lib.rs", Edition2021) }
+   0.345160300s  INFO prepare_target{force=false package_id=const-oid v0.9.6 target="const_oid"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\const-oid-1d4e14ebfa3b22b3\lib-const_oid`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -473,8 +473,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.281751700s  INFO prepare_target{force=false package_id=crypto-common v0.1.6 target="crypto_common"}: cargo::core::compiler::fingerprint: fingerprint error for crypto-common v0.1.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("crypto_common", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\crypto-common-0.1.6\\src\\lib.rs", Edition2018) }
-   0.281771700s  INFO prepare_target{force=false package_id=crypto-common v0.1.6 target="crypto_common"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\crypto-common-39941c4e535aef63\lib-crypto_common`
+   0.345853500s  INFO prepare_target{force=false package_id=crypto-common v0.1.6 target="crypto_common"}: cargo::core::compiler::fingerprint: fingerprint error for crypto-common v0.1.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("crypto_common", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\crypto-common-0.1.6\\src\\lib.rs", Edition2018) }
+   0.345883600s  INFO prepare_target{force=false package_id=crypto-common v0.1.6 target="crypto_common"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\crypto-common-39941c4e535aef63\lib-crypto_common`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -506,8 +506,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.282408800s  INFO prepare_target{force=false package_id=subtle v2.6.1 target="subtle"}: cargo::core::compiler::fingerprint: fingerprint error for subtle v2.6.1/Check { test: false }/TargetInner { ..: lib_target("subtle", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\subtle-2.6.1\\src\\lib.rs", Edition2018) }
-   0.282425900s  INFO prepare_target{force=false package_id=subtle v2.6.1 target="subtle"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\subtle-e6264e737995d5ca\lib-subtle`
+   0.346719500s  INFO prepare_target{force=false package_id=subtle v2.6.1 target="subtle"}: cargo::core::compiler::fingerprint: fingerprint error for subtle v2.6.1/Check { test: false }/TargetInner { ..: lib_target("subtle", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\subtle-2.6.1\\src\\lib.rs", Edition2018) }
+   0.346744700s  INFO prepare_target{force=false package_id=subtle v2.6.1 target="subtle"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\subtle-e6264e737995d5ca\lib-subtle`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -539,8 +539,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.283074700s  INFO prepare_target{force=false package_id=ed25519 v2.2.3 target="ed25519"}: cargo::core::compiler::fingerprint: fingerprint error for ed25519 v2.2.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ed25519", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ed25519-2.2.3\\src\\lib.rs", Edition2021) }
-   0.283095200s  INFO prepare_target{force=false package_id=ed25519 v2.2.3 target="ed25519"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ed25519-d96d554d4148453b\lib-ed25519`
+   0.347626200s  INFO prepare_target{force=false package_id=ed25519 v2.2.3 target="ed25519"}: cargo::core::compiler::fingerprint: fingerprint error for ed25519 v2.2.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ed25519", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ed25519-2.2.3\\src\\lib.rs", Edition2021) }
+   0.347651700s  INFO prepare_target{force=false package_id=ed25519 v2.2.3 target="ed25519"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ed25519-d96d554d4148453b\lib-ed25519`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -570,8 +570,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.283886500s  INFO prepare_target{force=false package_id=signature v2.2.0 target="signature"}: cargo::core::compiler::fingerprint: fingerprint error for signature v2.2.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("signature", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\signature-2.2.0\\src\\lib.rs", Edition2021) }
-   0.283906800s  INFO prepare_target{force=false package_id=signature v2.2.0 target="signature"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\signature-b66842676a82c602\lib-signature`
+   0.348306200s  INFO prepare_target{force=false package_id=signature v2.2.0 target="signature"}: cargo::core::compiler::fingerprint: fingerprint error for signature v2.2.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("signature", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\signature-2.2.0\\src\\lib.rs", Edition2021) }
+   0.348329400s  INFO prepare_target{force=false package_id=signature v2.2.0 target="signature"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\signature-b66842676a82c602\lib-signature`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -602,8 +602,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.284695600s  INFO prepare_target{force=false package_id=rand_core v0.6.4 target="rand_core"}: cargo::core::compiler::fingerprint: fingerprint error for rand_core v0.6.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand_core", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand_core-0.6.4\\src\\lib.rs", Edition2018) }
-   0.284716000s  INFO prepare_target{force=false package_id=rand_core v0.6.4 target="rand_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\rand_core-5193f0c292360f52\lib-rand_core`
+   0.349151300s  INFO prepare_target{force=false package_id=rand_core v0.6.4 target="rand_core"}: cargo::core::compiler::fingerprint: fingerprint error for rand_core v0.6.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand_core", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand_core-0.6.4\\src\\lib.rs", Edition2018) }
+   0.349178300s  INFO prepare_target{force=false package_id=rand_core v0.6.4 target="rand_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\rand_core-5193f0c292360f52\lib-rand_core`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -635,8 +635,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.285549400s  INFO prepare_target{force=false package_id=getrandom v0.2.16 target="getrandom"}: cargo::core::compiler::fingerprint: fingerprint error for getrandom v0.2.16/Check { test: false }/TargetInner { ..: lib_target("getrandom", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\getrandom-0.2.16\\src\\lib.rs", Edition2018) }
-   0.285568900s  INFO prepare_target{force=false package_id=getrandom v0.2.16 target="getrandom"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\getrandom-112e6c48927a6f1b\lib-getrandom`
+   0.349943000s  INFO prepare_target{force=false package_id=getrandom v0.2.16 target="getrandom"}: cargo::core::compiler::fingerprint: fingerprint error for getrandom v0.2.16/Check { test: false }/TargetInner { ..: lib_target("getrandom", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\getrandom-0.2.16\\src\\lib.rs", Edition2018) }
+   0.349968900s  INFO prepare_target{force=false package_id=getrandom v0.2.16 target="getrandom"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\getrandom-112e6c48927a6f1b\lib-getrandom`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -669,8 +669,8 @@ Stack backtrace:
   24: git_midx_writer_dump
   25: BaseThreadInitThunk
   26: RtlUserThreadStart
-   0.286141500s  INFO prepare_target{force=false package_id=sha2 v0.10.9 target="sha2"}: cargo::core::compiler::fingerprint: fingerprint error for sha2 v0.10.9/Check { test: false }/TargetInner { ..: lib_target("sha2", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\sha2-0.10.9\\src\\lib.rs", Edition2018) }
-   0.286164200s  INFO prepare_target{force=false package_id=sha2 v0.10.9 target="sha2"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\sha2-0698af5904c7e201\lib-sha2`
+   0.351015900s  INFO prepare_target{force=false package_id=sha2 v0.10.9 target="sha2"}: cargo::core::compiler::fingerprint: fingerprint error for sha2 v0.10.9/Check { test: false }/TargetInner { ..: lib_target("sha2", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\sha2-0.10.9\\src\\lib.rs", Edition2018) }
+   0.351042500s  INFO prepare_target{force=false package_id=sha2 v0.10.9 target="sha2"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\sha2-0698af5904c7e201\lib-sha2`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -700,8 +700,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.286868200s  INFO prepare_target{force=false package_id=rand v0.8.5 target="rand"}: cargo::core::compiler::fingerprint: fingerprint error for rand v0.8.5/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand-0.8.5\\src\\lib.rs", Edition2018) }
-   0.286886000s  INFO prepare_target{force=false package_id=rand v0.8.5 target="rand"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\rand-11a4cd32a162d26b\lib-rand`
+   0.351956600s  INFO prepare_target{force=false package_id=rand v0.8.5 target="rand"}: cargo::core::compiler::fingerprint: fingerprint error for rand v0.8.5/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand-0.8.5\\src\\lib.rs", Edition2018) }
+   0.351984100s  INFO prepare_target{force=false package_id=rand v0.8.5 target="rand"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\rand-11a4cd32a162d26b\lib-rand`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -730,8 +730,8 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.287497900s  INFO prepare_target{force=false package_id=rand_chacha v0.3.1 target="rand_chacha"}: cargo::core::compiler::fingerprint: fingerprint error for rand_chacha v0.3.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand_chacha", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand_chacha-0.3.1\\src\\lib.rs", Edition2018) }
-   0.287516700s  INFO prepare_target{force=false package_id=rand_chacha v0.3.1 target="rand_chacha"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\rand_chacha-821adebdbd8e5aa7\lib-rand_chacha`
+   0.353041300s  INFO prepare_target{force=false package_id=rand_chacha v0.3.1 target="rand_chacha"}: cargo::core::compiler::fingerprint: fingerprint error for rand_chacha v0.3.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand_chacha", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand_chacha-0.3.1\\src\\lib.rs", Edition2018) }
+   0.353075500s  INFO prepare_target{force=false package_id=rand_chacha v0.3.1 target="rand_chacha"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\rand_chacha-821adebdbd8e5aa7\lib-rand_chacha`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -761,8 +761,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.288004100s  INFO prepare_target{force=false package_id=ppv-lite86 v0.2.21 target="ppv_lite86"}: cargo::core::compiler::fingerprint: fingerprint error for ppv-lite86 v0.2.21/Check { test: false }/TargetInner { ..: lib_target("ppv_lite86", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ppv-lite86-0.2.21\\src\\lib.rs", Edition2021) }
-   0.288019500s  INFO prepare_target{force=false package_id=ppv-lite86 v0.2.21 target="ppv_lite86"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ppv-lite86-5f93a61a7b027d08\lib-ppv_lite86`
+   0.354150400s  INFO prepare_target{force=false package_id=ppv-lite86 v0.2.21 target="ppv_lite86"}: cargo::core::compiler::fingerprint: fingerprint error for ppv-lite86 v0.2.21/Check { test: false }/TargetInner { ..: lib_target("ppv_lite86", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ppv-lite86-0.2.21\\src\\lib.rs", Edition2021) }
+   0.354179400s  INFO prepare_target{force=false package_id=ppv-lite86 v0.2.21 target="ppv_lite86"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ppv-lite86-5f93a61a7b027d08\lib-ppv_lite86`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -793,8 +793,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.288444300s  INFO prepare_target{force=false package_id=zerocopy v0.8.27 target="zerocopy"}: cargo::core::compiler::fingerprint: fingerprint error for zerocopy v0.8.27/Check { test: false }/TargetInner { ..: lib_target("zerocopy", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zerocopy-0.8.27\\src\\lib.rs", Edition2021) }
-   0.288460000s  INFO prepare_target{force=false package_id=zerocopy v0.8.27 target="zerocopy"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\zerocopy-52ad25bdd83e533d\lib-zerocopy`
+   0.355072400s  INFO prepare_target{force=false package_id=zerocopy v0.8.27 target="zerocopy"}: cargo::core::compiler::fingerprint: fingerprint error for zerocopy v0.8.27/Check { test: false }/TargetInner { ..: lib_target("zerocopy", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zerocopy-0.8.27\\src\\lib.rs", Edition2021) }
+   0.355097400s  INFO prepare_target{force=false package_id=zerocopy v0.8.27 target="zerocopy"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\zerocopy-52ad25bdd83e533d\lib-zerocopy`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -826,8 +826,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.289957100s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.228/Check { test: false }/TargetInner { ..: lib_target("serde", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.228\\src\\lib.rs", Edition2021) }
-   0.289974000s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\serde-731f7c97b2340632\lib-serde`
+   0.357274100s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.228/Check { test: false }/TargetInner { ..: lib_target("serde", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.228\\src\\lib.rs", Edition2021) }
+   0.357301100s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\serde-731f7c97b2340632\lib-serde`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -856,8 +856,8 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.291383300s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="serde_core"}: cargo::core::compiler::fingerprint: fingerprint error for serde_core v1.0.228/Check { test: false }/TargetInner { ..: lib_target("serde_core", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_core-1.0.228\\src\\lib.rs", Edition2021) }
-   0.291399900s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="serde_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\serde_core-f67fb10023ed2dba\lib-serde_core`
+   0.359018300s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="serde_core"}: cargo::core::compiler::fingerprint: fingerprint error for serde_core v1.0.228/Check { test: false }/TargetInner { ..: lib_target("serde_core", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_core-1.0.228\\src\\lib.rs", Edition2021) }
+   0.359043800s  INFO prepare_target{force=false package_id=serde_core v1.0.228 target="serde_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\serde_core-f67fb10023ed2dba\lib-serde_core`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -887,8 +887,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.293400700s  INFO prepare_target{force=false package_id=serde_json v1.0.145 target="serde_json"}: cargo::core::compiler::fingerprint: fingerprint error for serde_json v1.0.145/Check { test: false }/TargetInner { ..: lib_target("serde_json", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_json-1.0.145\\src\\lib.rs", Edition2021) }
-   0.293421100s  INFO prepare_target{force=false package_id=serde_json v1.0.145 target="serde_json"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\serde_json-356743c980fb5f0d\lib-serde_json`
+   0.361201200s  INFO prepare_target{force=false package_id=serde_json v1.0.145 target="serde_json"}: cargo::core::compiler::fingerprint: fingerprint error for serde_json v1.0.145/Check { test: false }/TargetInner { ..: lib_target("serde_json", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_json-1.0.145\\src\\lib.rs", Edition2021) }
+   0.361227300s  INFO prepare_target{force=false package_id=serde_json v1.0.145 target="serde_json"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\serde_json-356743c980fb5f0d\lib-serde_json`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -917,8 +917,8 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.294071000s  INFO prepare_target{force=false package_id=itoa v1.0.15 target="itoa"}: cargo::core::compiler::fingerprint: fingerprint error for itoa v1.0.15/Check { test: false }/TargetInner { ..: lib_target("itoa", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\itoa-1.0.15\\src\\lib.rs", Edition2018) }
-   0.294087800s  INFO prepare_target{force=false package_id=itoa v1.0.15 target="itoa"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\itoa-2179d09a8cbaa087\lib-itoa`
+   0.362108700s  INFO prepare_target{force=false package_id=itoa v1.0.15 target="itoa"}: cargo::core::compiler::fingerprint: fingerprint error for itoa v1.0.15/Check { test: false }/TargetInner { ..: lib_target("itoa", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\itoa-1.0.15\\src\\lib.rs", Edition2018) }
+   0.362135100s  INFO prepare_target{force=false package_id=itoa v1.0.15 target="itoa"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\itoa-2179d09a8cbaa087\lib-itoa`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -948,8 +948,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.294611400s  INFO prepare_target{force=false package_id=memchr v2.7.6 target="memchr"}: cargo::core::compiler::fingerprint: fingerprint error for memchr v2.7.6/Check { test: false }/TargetInner { benched: false, ..: lib_target("memchr", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\memchr-2.7.6\\src\\lib.rs", Edition2021) }
-   0.294627600s  INFO prepare_target{force=false package_id=memchr v2.7.6 target="memchr"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\memchr-f6b4808565e1c4aa\lib-memchr`
+   0.362741300s  INFO prepare_target{force=false package_id=memchr v2.7.6 target="memchr"}: cargo::core::compiler::fingerprint: fingerprint error for memchr v2.7.6/Check { test: false }/TargetInner { benched: false, ..: lib_target("memchr", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\memchr-2.7.6\\src\\lib.rs", Edition2021) }
+   0.362763900s  INFO prepare_target{force=false package_id=memchr v2.7.6 target="memchr"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\memchr-f6b4808565e1c4aa\lib-memchr`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -979,8 +979,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.295035100s  INFO prepare_target{force=false package_id=ryu v1.0.20 target="ryu"}: cargo::core::compiler::fingerprint: fingerprint error for ryu v1.0.20/Check { test: false }/TargetInner { ..: lib_target("ryu", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ryu-1.0.20\\src\\lib.rs", Edition2018) }
-   0.295050900s  INFO prepare_target{force=false package_id=ryu v1.0.20 target="ryu"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ryu-2aad64c2fa5ccf5a\lib-ryu`
+   0.363417900s  INFO prepare_target{force=false package_id=ryu v1.0.20 target="ryu"}: cargo::core::compiler::fingerprint: fingerprint error for ryu v1.0.20/Check { test: false }/TargetInner { ..: lib_target("ryu", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ryu-1.0.20\\src\\lib.rs", Edition2018) }
+   0.363443400s  INFO prepare_target{force=false package_id=ryu v1.0.20 target="ryu"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ryu-2aad64c2fa5ccf5a\lib-ryu`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1010,8 +1010,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.296659800s  INFO prepare_target{force=false package_id=soroban-env-host v23.0.1 target="soroban_env_host"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-env-host v23.0.1/Check { test: false }/TargetInner { ..: lib_target("soroban_env_host", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-env-host-23.0.1\\src\\lib.rs", Edition2021) }
-   0.296679600s  INFO prepare_target{force=false package_id=soroban-env-host v23.0.1 target="soroban_env_host"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\soroban-env-host-100880890f836b57\lib-soroban_env_host`
+   0.365039200s  INFO prepare_target{force=false package_id=soroban-env-host v23.0.1 target="soroban_env_host"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-env-host v23.0.1/Check { test: false }/TargetInner { ..: lib_target("soroban_env_host", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-env-host-23.0.1\\src\\lib.rs", Edition2021) }
+   0.365064800s  INFO prepare_target{force=false package_id=soroban-env-host v23.0.1 target="soroban_env_host"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\soroban-env-host-100880890f836b57\lib-soroban_env_host`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1040,8 +1040,8 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.298089400s  INFO prepare_target{force=false package_id=ark-bls12-381 v0.4.0 target="ark_bls12_381"}: cargo::core::compiler::fingerprint: fingerprint error for ark-bls12-381 v0.4.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_bls12_381", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ark-bls12-381-0.4.0\\src\\lib.rs", Edition2021) }
-   0.298111800s  INFO prepare_target{force=false package_id=ark-bls12-381 v0.4.0 target="ark_bls12_381"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ark-bls12-381-b65deb7e3f7425b3\lib-ark_bls12_381`
+   0.366736200s  INFO prepare_target{force=false package_id=ark-bls12-381 v0.4.0 target="ark_bls12_381"}: cargo::core::compiler::fingerprint: fingerprint error for ark-bls12-381 v0.4.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_bls12_381", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ark-bls12-381-0.4.0\\src\\lib.rs", Edition2021) }
+   0.366775800s  INFO prepare_target{force=false package_id=ark-bls12-381 v0.4.0 target="ark_bls12_381"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ark-bls12-381-b65deb7e3f7425b3\lib-ark_bls12_381`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1071,8 +1071,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.298785500s  INFO prepare_target{force=false package_id=ark-ec v0.4.2 target="ark_ec"}: cargo::core::compiler::fingerprint: fingerprint error for ark-ec v0.4.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_ec", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ark-ec-0.4.2\\src\\lib.rs", Edition2021) }
-   0.298802800s  INFO prepare_target{force=false package_id=ark-ec v0.4.2 target="ark_ec"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ark-ec-393b9958a99d54cc\lib-ark_ec`
+   0.368023300s  INFO prepare_target{force=false package_id=ark-ec v0.4.2 target="ark_ec"}: cargo::core::compiler::fingerprint: fingerprint error for ark-ec v0.4.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_ec", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ark-ec-0.4.2\\src\\lib.rs", Edition2021) }
+   0.368052300s  INFO prepare_target{force=false package_id=ark-ec v0.4.2 target="ark_ec"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ark-ec-393b9958a99d54cc\lib-ark_ec`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1103,8 +1103,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.299371100s  INFO prepare_target{force=false package_id=ark-ff v0.4.2 target="ark_ff"}: cargo::core::compiler::fingerprint: fingerprint error for ark-ff v0.4.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_ff", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ark-ff-0.4.2\\src\\lib.rs", Edition2021) }
-   0.299387000s  INFO prepare_target{force=false package_id=ark-ff v0.4.2 target="ark_ff"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ark-ff-a42c25e03d998e7a\lib-ark_ff`
+   0.369005300s  INFO prepare_target{force=false package_id=ark-ff v0.4.2 target="ark_ff"}: cargo::core::compiler::fingerprint: fingerprint error for ark-ff v0.4.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_ff", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ark-ff-0.4.2\\src\\lib.rs", Edition2021) }
+   0.369032900s  INFO prepare_target{force=false package_id=ark-ff v0.4.2 target="ark_ff"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ark-ff-a42c25e03d998e7a\lib-ark_ff`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1136,8 +1136,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.301839200s  INFO prepare_target{force=false package_id=ark-serialize v0.4.2 target="ark_serialize"}: cargo::core::compiler::fingerprint: fingerprint error for ark-serialize v0.4.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_serialize", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ark-serialize-0.4.2\\src\\lib.rs", Edition2021) }
-   0.301855100s  INFO prepare_target{force=false package_id=ark-serialize v0.4.2 target="ark_serialize"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ark-serialize-a9c665b13538c564\lib-ark_serialize`
+   0.373208300s  INFO prepare_target{force=false package_id=ark-serialize v0.4.2 target="ark_serialize"}: cargo::core::compiler::fingerprint: fingerprint error for ark-serialize v0.4.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_serialize", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ark-serialize-0.4.2\\src\\lib.rs", Edition2021) }
+   0.373249400s  INFO prepare_target{force=false package_id=ark-serialize v0.4.2 target="ark_serialize"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ark-serialize-a9c665b13538c564\lib-ark_serialize`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1170,8 +1170,8 @@ Stack backtrace:
   24: git_midx_writer_dump
   25: BaseThreadInitThunk
   26: RtlUserThreadStart
-   0.302610200s  INFO prepare_target{force=false package_id=ark-std v0.4.0 target="ark_std"}: cargo::core::compiler::fingerprint: fingerprint error for ark-std v0.4.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_std", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ark-std-0.4.0\\src\\lib.rs", Edition2021) }
-   0.302626300s  INFO prepare_target{force=false package_id=ark-std v0.4.0 target="ark_std"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ark-std-deee6f15caaf35e3\lib-ark_std`
+   0.374981400s  INFO prepare_target{force=false package_id=ark-std v0.4.0 target="ark_std"}: cargo::core::compiler::fingerprint: fingerprint error for ark-std v0.4.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_std", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ark-std-0.4.0\\src\\lib.rs", Edition2021) }
+   0.375021100s  INFO prepare_target{force=false package_id=ark-std v0.4.0 target="ark_std"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ark-std-deee6f15caaf35e3\lib-ark_std`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1205,8 +1205,8 @@ Stack backtrace:
   25: git_midx_writer_dump
   26: BaseThreadInitThunk
   27: RtlUserThreadStart
-   0.303404800s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint: fingerprint error for num-traits v0.2.19/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_traits", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-traits-0.2.19\\src\\lib.rs", Edition2021) }
-   0.303426200s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\num-traits-4bb52bdec85e82ce\lib-num_traits`
+   0.375962800s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint: fingerprint error for num-traits v0.2.19/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_traits", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-traits-0.2.19\\src\\lib.rs", Edition2021) }
+   0.375989400s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\num-traits-4bb52bdec85e82ce\lib-num_traits`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1241,8 +1241,8 @@ Stack backtrace:
   26: git_midx_writer_dump
   27: BaseThreadInitThunk
   28: RtlUserThreadStart
-   0.305147600s  INFO prepare_target{force=false package_id=num-bigint v0.4.6 target="num_bigint"}: cargo::core::compiler::fingerprint: fingerprint error for num-bigint v0.4.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_bigint", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-bigint-0.4.6\\src\\lib.rs", Edition2021) }
-   0.305167500s  INFO prepare_target{force=false package_id=num-bigint v0.4.6 target="num_bigint"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\num-bigint-e33d59e4a79b8f5f\lib-num_bigint`
+   0.378271800s  INFO prepare_target{force=false package_id=num-bigint v0.4.6 target="num_bigint"}: cargo::core::compiler::fingerprint: fingerprint error for num-bigint v0.4.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_bigint", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-bigint-0.4.6\\src\\lib.rs", Edition2021) }
+   0.378309400s  INFO prepare_target{force=false package_id=num-bigint v0.4.6 target="num_bigint"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\num-bigint-e33d59e4a79b8f5f\lib-num_bigint`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1276,8 +1276,8 @@ Stack backtrace:
   25: git_midx_writer_dump
   26: BaseThreadInitThunk
   27: RtlUserThreadStart
-   0.305711900s  INFO prepare_target{force=false package_id=num-integer v0.1.46 target="num_integer"}: cargo::core::compiler::fingerprint: fingerprint error for num-integer v0.1.46/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_integer", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-integer-0.1.46\\src\\lib.rs", Edition2018) }
-   0.305731700s  INFO prepare_target{force=false package_id=num-integer v0.1.46 target="num_integer"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\num-integer-06fd2c300b81ed5b\lib-num_integer`
+   0.379310500s  INFO prepare_target{force=false package_id=num-integer v0.1.46 target="num_integer"}: cargo::core::compiler::fingerprint: fingerprint error for num-integer v0.1.46/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_integer", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-integer-0.1.46\\src\\lib.rs", Edition2018) }
+   0.379340800s  INFO prepare_target{force=false package_id=num-integer v0.1.46 target="num_integer"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\num-integer-06fd2c300b81ed5b\lib-num_integer`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1312,8 +1312,8 @@ Stack backtrace:
   26: git_midx_writer_dump
   27: BaseThreadInitThunk
   28: RtlUserThreadStart
-   0.306539200s  INFO prepare_target{force=false package_id=itertools v0.10.5 target="itertools"}: cargo::core::compiler::fingerprint: fingerprint error for itertools v0.10.5/Check { test: false }/TargetInner { name_inferred: true, tested: false, benched: false, ..: lib_target("itertools", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\itertools-0.10.5\\src\\lib.rs", Edition2018) }
-   0.306555900s  INFO prepare_target{force=false package_id=itertools v0.10.5 target="itertools"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\itertools-14b4a570114aafc5\lib-itertools`
+   0.380837800s  INFO prepare_target{force=false package_id=itertools v0.10.5 target="itertools"}: cargo::core::compiler::fingerprint: fingerprint error for itertools v0.10.5/Check { test: false }/TargetInner { name_inferred: true, tested: false, benched: false, ..: lib_target("itertools", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\itertools-0.10.5\\src\\lib.rs", Edition2018) }
+   0.380904000s  INFO prepare_target{force=false package_id=itertools v0.10.5 target="itertools"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\itertools-14b4a570114aafc5\lib-itertools`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1346,8 +1346,8 @@ Stack backtrace:
   24: git_midx_writer_dump
   25: BaseThreadInitThunk
   26: RtlUserThreadStart
-   0.307061100s  INFO prepare_target{force=false package_id=either v1.15.0 target="either"}: cargo::core::compiler::fingerprint: fingerprint error for either v1.15.0/Check { test: false }/TargetInner { ..: lib_target("either", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\either-1.15.0\\src\\lib.rs", Edition2021) }
-   0.307077000s  INFO prepare_target{force=false package_id=either v1.15.0 target="either"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\either-a882f950409e6c56\lib-either`
+   0.381860900s  INFO prepare_target{force=false package_id=either v1.15.0 target="either"}: cargo::core::compiler::fingerprint: fingerprint error for either v1.15.0/Check { test: false }/TargetInner { ..: lib_target("either", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\either-1.15.0\\src\\lib.rs", Edition2021) }
+   0.381895400s  INFO prepare_target{force=false package_id=either v1.15.0 target="either"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\either-a882f950409e6c56\lib-either`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1381,8 +1381,8 @@ Stack backtrace:
   25: git_midx_writer_dump
   26: BaseThreadInitThunk
   27: RtlUserThreadStart
-   0.308953700s  INFO prepare_target{force=false package_id=ark-poly v0.4.2 target="ark_poly"}: cargo::core::compiler::fingerprint: fingerprint error for ark-poly v0.4.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_poly", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ark-poly-0.4.2\\src\\lib.rs", Edition2021) }
-   0.308970900s  INFO prepare_target{force=false package_id=ark-poly v0.4.2 target="ark_poly"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ark-poly-370d947ea710bd6b\lib-ark_poly`
+   0.384753600s  INFO prepare_target{force=false package_id=ark-poly v0.4.2 target="ark_poly"}: cargo::core::compiler::fingerprint: fingerprint error for ark-poly v0.4.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_poly", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ark-poly-0.4.2\\src\\lib.rs", Edition2021) }
+   0.384786700s  INFO prepare_target{force=false package_id=ark-poly v0.4.2 target="ark_poly"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ark-poly-370d947ea710bd6b\lib-ark_poly`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1414,8 +1414,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.309597500s  INFO prepare_target{force=false package_id=hashbrown v0.13.2 target="hashbrown"}: cargo::core::compiler::fingerprint: fingerprint error for hashbrown v0.13.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hashbrown", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hashbrown-0.13.2\\src\\lib.rs", Edition2021) }
-   0.309615000s  INFO prepare_target{force=false package_id=hashbrown v0.13.2 target="hashbrown"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\hashbrown-1bef5b6c1eb9fb97\lib-hashbrown`
+   0.385854500s  INFO prepare_target{force=false package_id=hashbrown v0.13.2 target="hashbrown"}: cargo::core::compiler::fingerprint: fingerprint error for hashbrown v0.13.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hashbrown", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hashbrown-0.13.2\\src\\lib.rs", Edition2021) }
+   0.385879900s  INFO prepare_target{force=false package_id=hashbrown v0.13.2 target="hashbrown"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\hashbrown-1bef5b6c1eb9fb97\lib-hashbrown`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1448,8 +1448,8 @@ Stack backtrace:
   24: git_midx_writer_dump
   25: BaseThreadInitThunk
   26: RtlUserThreadStart
-   0.310158700s  INFO prepare_target{force=false package_id=ahash v0.8.12 target="ahash"}: cargo::core::compiler::fingerprint: fingerprint error for ahash v0.8.12/Check { test: false }/TargetInner { ..: lib_target("ahash", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ahash-0.8.12\\src\\lib.rs", Edition2018) }
-   0.310208500s  INFO prepare_target{force=false package_id=ahash v0.8.12 target="ahash"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ahash-e0394d9dd94b97cb\lib-ahash`
+   0.386804700s  INFO prepare_target{force=false package_id=ahash v0.8.12 target="ahash"}: cargo::core::compiler::fingerprint: fingerprint error for ahash v0.8.12/Check { test: false }/TargetInner { ..: lib_target("ahash", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ahash-0.8.12\\src\\lib.rs", Edition2018) }
+   0.386828900s  INFO prepare_target{force=false package_id=ahash v0.8.12 target="ahash"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ahash-e0394d9dd94b97cb\lib-ahash`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1483,8 +1483,8 @@ Stack backtrace:
   25: git_midx_writer_dump
   26: BaseThreadInitThunk
   27: RtlUserThreadStart
-   0.312547600s  INFO prepare_target{force=false package_id=once_cell v1.21.3 target="once_cell"}: cargo::core::compiler::fingerprint: fingerprint error for once_cell v1.21.3/Check { test: false }/TargetInner { ..: lib_target("once_cell", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\once_cell-1.21.3\\src\\lib.rs", Edition2021) }
-   0.312571400s  INFO prepare_target{force=false package_id=once_cell v1.21.3 target="once_cell"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\once_cell-ff0ad348901115f4\lib-once_cell`
+   0.388897500s  INFO prepare_target{force=false package_id=once_cell v1.21.3 target="once_cell"}: cargo::core::compiler::fingerprint: fingerprint error for once_cell v1.21.3/Check { test: false }/TargetInner { ..: lib_target("once_cell", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\once_cell-1.21.3\\src\\lib.rs", Edition2021) }
+   0.388923500s  INFO prepare_target{force=false package_id=once_cell v1.21.3 target="once_cell"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\once_cell-ff0ad348901115f4\lib-once_cell`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1519,8 +1519,8 @@ Stack backtrace:
   26: git_midx_writer_dump
   27: BaseThreadInitThunk
   28: RtlUserThreadStart
-   0.313215000s  INFO prepare_target{force=false package_id=ecdsa v0.16.9 target="ecdsa"}: cargo::core::compiler::fingerprint: fingerprint error for ecdsa v0.16.9/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ecdsa", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ecdsa-0.16.9\\src\\lib.rs", Edition2021) }
-   0.313234400s  INFO prepare_target{force=false package_id=ecdsa v0.16.9 target="ecdsa"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ecdsa-822748bbce17f66f\lib-ecdsa`
+   0.389546500s  INFO prepare_target{force=false package_id=ecdsa v0.16.9 target="ecdsa"}: cargo::core::compiler::fingerprint: fingerprint error for ecdsa v0.16.9/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ecdsa", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ecdsa-0.16.9\\src\\lib.rs", Edition2021) }
+   0.389567800s  INFO prepare_target{force=false package_id=ecdsa v0.16.9 target="ecdsa"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ecdsa-822748bbce17f66f\lib-ecdsa`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1550,8 +1550,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.313970400s  INFO prepare_target{force=false package_id=der v0.7.10 target="der"}: cargo::core::compiler::fingerprint: fingerprint error for der v0.7.10/Check { test: false }/TargetInner { ..: lib_target("der", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\der-0.7.10\\src\\lib.rs", Edition2021) }
-   0.313987900s  INFO prepare_target{force=false package_id=der v0.7.10 target="der"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\der-8fec6d1f4306db01\lib-der`
+   0.390332000s  INFO prepare_target{force=false package_id=der v0.7.10 target="der"}: cargo::core::compiler::fingerprint: fingerprint error for der v0.7.10/Check { test: false }/TargetInner { ..: lib_target("der", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\der-0.7.10\\src\\lib.rs", Edition2021) }
+   0.390354600s  INFO prepare_target{force=false package_id=der v0.7.10 target="der"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\der-8fec6d1f4306db01\lib-der`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1582,8 +1582,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.314622500s  INFO prepare_target{force=false package_id=elliptic-curve v0.13.8 target="elliptic_curve"}: cargo::core::compiler::fingerprint: fingerprint error for elliptic-curve v0.13.8/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("elliptic_curve", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\elliptic-curve-0.13.8\\src\\lib.rs", Edition2021) }
-   0.314643500s  INFO prepare_target{force=false package_id=elliptic-curve v0.13.8 target="elliptic_curve"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\elliptic-curve-6316be818e0e2e2b\lib-elliptic_curve`
+   0.391286700s  INFO prepare_target{force=false package_id=elliptic-curve v0.13.8 target="elliptic_curve"}: cargo::core::compiler::fingerprint: fingerprint error for elliptic-curve v0.13.8/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("elliptic_curve", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\elliptic-curve-0.13.8\\src\\lib.rs", Edition2021) }
+   0.391314500s  INFO prepare_target{force=false package_id=elliptic-curve v0.13.8 target="elliptic_curve"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\elliptic-curve-6316be818e0e2e2b\lib-elliptic_curve`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1614,8 +1614,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.315318800s  INFO prepare_target{force=false package_id=base16ct v0.2.0 target="base16ct"}: cargo::core::compiler::fingerprint: fingerprint error for base16ct v0.2.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("base16ct", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\base16ct-0.2.0\\src\\lib.rs", Edition2021) }
-   0.315336500s  INFO prepare_target{force=false package_id=base16ct v0.2.0 target="base16ct"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\base16ct-e6658f7e2d0abe47\lib-base16ct`
+   0.392130900s  INFO prepare_target{force=false package_id=base16ct v0.2.0 target="base16ct"}: cargo::core::compiler::fingerprint: fingerprint error for base16ct v0.2.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("base16ct", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\base16ct-0.2.0\\src\\lib.rs", Edition2021) }
+   0.392178700s  INFO prepare_target{force=false package_id=base16ct v0.2.0 target="base16ct"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\base16ct-e6658f7e2d0abe47\lib-base16ct`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1647,8 +1647,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.316007000s  INFO prepare_target{force=false package_id=crypto-bigint v0.5.5 target="crypto_bigint"}: cargo::core::compiler::fingerprint: fingerprint error for crypto-bigint v0.5.5/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("crypto_bigint", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\crypto-bigint-0.5.5\\src\\lib.rs", Edition2021) }
-   0.316024000s  INFO prepare_target{force=false package_id=crypto-bigint v0.5.5 target="crypto_bigint"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\crypto-bigint-0e9ee0935d053dc0\lib-crypto_bigint`
+   0.392803100s  INFO prepare_target{force=false package_id=crypto-bigint v0.5.5 target="crypto_bigint"}: cargo::core::compiler::fingerprint: fingerprint error for crypto-bigint v0.5.5/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("crypto_bigint", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\crypto-bigint-0.5.5\\src\\lib.rs", Edition2021) }
+   0.392835600s  INFO prepare_target{force=false package_id=crypto-bigint v0.5.5 target="crypto_bigint"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\crypto-bigint-0e9ee0935d053dc0\lib-crypto_bigint`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1680,8 +1680,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.316722400s  INFO prepare_target{force=false package_id=ff v0.13.1 target="ff"}: cargo::core::compiler::fingerprint: fingerprint error for ff v0.13.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ff", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ff-0.13.1\\src\\lib.rs", Edition2021) }
-   0.316739300s  INFO prepare_target{force=false package_id=ff v0.13.1 target="ff"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ff-878d069d57341af2\lib-ff`
+   0.393759400s  INFO prepare_target{force=false package_id=ff v0.13.1 target="ff"}: cargo::core::compiler::fingerprint: fingerprint error for ff v0.13.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ff", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ff-0.13.1\\src\\lib.rs", Edition2021) }
+   0.393787100s  INFO prepare_target{force=false package_id=ff v0.13.1 target="ff"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ff-878d069d57341af2\lib-ff`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1713,8 +1713,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.317298000s  INFO prepare_target{force=false package_id=group v0.13.0 target="group"}: cargo::core::compiler::fingerprint: fingerprint error for group v0.13.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("group", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\group-0.13.0\\src\\lib.rs", Edition2021) }
-   0.317315600s  INFO prepare_target{force=false package_id=group v0.13.0 target="group"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\group-cb5e27735cb33463\lib-group`
+   0.394691200s  INFO prepare_target{force=false package_id=group v0.13.0 target="group"}: cargo::core::compiler::fingerprint: fingerprint error for group v0.13.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("group", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\group-0.13.0\\src\\lib.rs", Edition2021) }
+   0.394723400s  INFO prepare_target{force=false package_id=group v0.13.0 target="group"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\group-cb5e27735cb33463\lib-group`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1746,8 +1746,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.317842100s  INFO prepare_target{force=false package_id=sec1 v0.7.3 target="sec1"}: cargo::core::compiler::fingerprint: fingerprint error for sec1 v0.7.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sec1", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\sec1-0.7.3\\src\\lib.rs", Edition2021) }
-   0.317861500s  INFO prepare_target{force=false package_id=sec1 v0.7.3 target="sec1"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\sec1-6b28fa0d2b8b615b\lib-sec1`
+   0.395723300s  INFO prepare_target{force=false package_id=sec1 v0.7.3 target="sec1"}: cargo::core::compiler::fingerprint: fingerprint error for sec1 v0.7.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sec1", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\sec1-0.7.3\\src\\lib.rs", Edition2021) }
+   0.395749300s  INFO prepare_target{force=false package_id=sec1 v0.7.3 target="sec1"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\sec1-6b28fa0d2b8b615b\lib-sec1`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1779,8 +1779,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.318421500s  INFO prepare_target{force=false package_id=rfc6979 v0.4.0 target="rfc6979"}: cargo::core::compiler::fingerprint: fingerprint error for rfc6979 v0.4.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rfc6979", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rfc6979-0.4.0\\src\\lib.rs", Edition2021) }
-   0.318437000s  INFO prepare_target{force=false package_id=rfc6979 v0.4.0 target="rfc6979"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\rfc6979-8faaeaacad49b3c6\lib-rfc6979`
+   0.396579900s  INFO prepare_target{force=false package_id=rfc6979 v0.4.0 target="rfc6979"}: cargo::core::compiler::fingerprint: fingerprint error for rfc6979 v0.4.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rfc6979", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rfc6979-0.4.0\\src\\lib.rs", Edition2021) }
+   0.396605500s  INFO prepare_target{force=false package_id=rfc6979 v0.4.0 target="rfc6979"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\rfc6979-8faaeaacad49b3c6\lib-rfc6979`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1811,8 +1811,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.318978100s  INFO prepare_target{force=false package_id=hmac v0.12.1 target="hmac"}: cargo::core::compiler::fingerprint: fingerprint error for hmac v0.12.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hmac", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hmac-0.12.1\\src\\lib.rs", Edition2018) }
-   0.318995400s  INFO prepare_target{force=false package_id=hmac v0.12.1 target="hmac"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\hmac-8e6f22840adfd317\lib-hmac`
+   0.397463800s  INFO prepare_target{force=false package_id=hmac v0.12.1 target="hmac"}: cargo::core::compiler::fingerprint: fingerprint error for hmac v0.12.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hmac", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hmac-0.12.1\\src\\lib.rs", Edition2018) }
+   0.397488500s  INFO prepare_target{force=false package_id=hmac v0.12.1 target="hmac"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\hmac-8e6f22840adfd317\lib-hmac`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1844,8 +1844,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.319511800s  INFO prepare_target{force=false package_id=hex-literal v0.4.1 target="hex_literal"}: cargo::core::compiler::fingerprint: fingerprint error for hex-literal v0.4.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hex_literal", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hex-literal-0.4.1\\src\\lib.rs", Edition2021) }
-   0.319529900s  INFO prepare_target{force=false package_id=hex-literal v0.4.1 target="hex_literal"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\hex-literal-119c87aa2a42b9a1\lib-hex_literal`
+   0.398515900s  INFO prepare_target{force=false package_id=hex-literal v0.4.1 target="hex_literal"}: cargo::core::compiler::fingerprint: fingerprint error for hex-literal v0.4.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hex_literal", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hex-literal-0.4.1\\src\\lib.rs", Edition2021) }
+   0.398542500s  INFO prepare_target{force=false package_id=hex-literal v0.4.1 target="hex_literal"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\hex-literal-119c87aa2a42b9a1\lib-hex_literal`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1875,8 +1875,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.319959300s  INFO prepare_target{force=false package_id=k256 v0.13.4 target="k256"}: cargo::core::compiler::fingerprint: fingerprint error for k256 v0.13.4/Check { test: false }/TargetInner { ..: lib_target("k256", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\k256-0.13.4\\src\\lib.rs", Edition2021) }
-   0.319975700s  INFO prepare_target{force=false package_id=k256 v0.13.4 target="k256"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\k256-ab2a3c8b3b4dd759\lib-k256`
+   0.399486400s  INFO prepare_target{force=false package_id=k256 v0.13.4 target="k256"}: cargo::core::compiler::fingerprint: fingerprint error for k256 v0.13.4/Check { test: false }/TargetInner { ..: lib_target("k256", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\k256-0.13.4\\src\\lib.rs", Edition2021) }
+   0.399516700s  INFO prepare_target{force=false package_id=k256 v0.13.4 target="k256"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\k256-ab2a3c8b3b4dd759\lib-k256`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1906,8 +1906,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.320750700s  INFO prepare_target{force=false package_id=p256 v0.13.2 target="p256"}: cargo::core::compiler::fingerprint: fingerprint error for p256 v0.13.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("p256", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\p256-0.13.2\\src\\lib.rs", Edition2021) }
-   0.320766300s  INFO prepare_target{force=false package_id=p256 v0.13.2 target="p256"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\p256-91a8cbe95b338050\lib-p256`
+   0.400802700s  INFO prepare_target{force=false package_id=p256 v0.13.2 target="p256"}: cargo::core::compiler::fingerprint: fingerprint error for p256 v0.13.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("p256", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\p256-0.13.2\\src\\lib.rs", Edition2021) }
+   0.400826400s  INFO prepare_target{force=false package_id=p256 v0.13.2 target="p256"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\p256-91a8cbe95b338050\lib-p256`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1937,8 +1937,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.321322100s  INFO prepare_target{force=false package_id=primeorder v0.13.6 target="primeorder"}: cargo::core::compiler::fingerprint: fingerprint error for primeorder v0.13.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("primeorder", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\primeorder-0.13.6\\src\\lib.rs", Edition2021) }
-   0.321338100s  INFO prepare_target{force=false package_id=primeorder v0.13.6 target="primeorder"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\primeorder-24c800289ee7a1eb\lib-primeorder`
+   0.401905900s  INFO prepare_target{force=false package_id=primeorder v0.13.6 target="primeorder"}: cargo::core::compiler::fingerprint: fingerprint error for primeorder v0.13.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("primeorder", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\primeorder-0.13.6\\src\\lib.rs", Edition2021) }
+   0.401937500s  INFO prepare_target{force=false package_id=primeorder v0.13.6 target="primeorder"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\primeorder-24c800289ee7a1eb\lib-primeorder`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -1969,8 +1969,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.322025900s  INFO prepare_target{force=false package_id=sha3 v0.10.8 target="sha3"}: cargo::core::compiler::fingerprint: fingerprint error for sha3 v0.10.8/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sha3", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\sha3-0.10.8\\src\\lib.rs", Edition2018) }
-   0.322045900s  INFO prepare_target{force=false package_id=sha3 v0.10.8 target="sha3"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\sha3-6d6ecc7754ffee88\lib-sha3`
+   0.403144400s  INFO prepare_target{force=false package_id=sha3 v0.10.8 target="sha3"}: cargo::core::compiler::fingerprint: fingerprint error for sha3 v0.10.8/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sha3", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\sha3-0.10.8\\src\\lib.rs", Edition2018) }
+   0.403170800s  INFO prepare_target{force=false package_id=sha3 v0.10.8 target="sha3"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\sha3-6d6ecc7754ffee88\lib-sha3`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2000,8 +2000,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.322712200s  INFO prepare_target{force=false package_id=keccak v0.1.5 target="keccak"}: cargo::core::compiler::fingerprint: fingerprint error for keccak v0.1.5/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("keccak", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\keccak-0.1.5\\src\\lib.rs", Edition2018) }
-   0.322731800s  INFO prepare_target{force=false package_id=keccak v0.1.5 target="keccak"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\keccak-7b975435768be6c2\lib-keccak`
+   0.403843100s  INFO prepare_target{force=false package_id=keccak v0.1.5 target="keccak"}: cargo::core::compiler::fingerprint: fingerprint error for keccak v0.1.5/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("keccak", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\keccak-0.1.5\\src\\lib.rs", Edition2018) }
+   0.403865700s  INFO prepare_target{force=false package_id=keccak v0.1.5 target="keccak"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\keccak-7b975435768be6c2\lib-keccak`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2032,8 +2032,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.324170000s  INFO prepare_target{force=false package_id=soroban-env-common v23.0.1 target="soroban_env_common"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-env-common v23.0.1/Check { test: false }/TargetInner { ..: lib_target("soroban_env_common", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-env-common-23.0.1\\src\\lib.rs", Edition2021) }
-   0.324191800s  INFO prepare_target{force=false package_id=soroban-env-common v23.0.1 target="soroban_env_common"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\soroban-env-common-0d55d7cae1bca9cb\lib-soroban_env_common`
+   0.405253100s  INFO prepare_target{force=false package_id=soroban-env-common v23.0.1 target="soroban_env_common"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-env-common v23.0.1/Check { test: false }/TargetInner { ..: lib_target("soroban_env_common", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-env-common-23.0.1\\src\\lib.rs", Edition2021) }
+   0.405277900s  INFO prepare_target{force=false package_id=soroban-env-common v23.0.1 target="soroban_env_common"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\soroban-env-common-0d55d7cae1bca9cb\lib-soroban_env_common`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2063,8 +2063,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.325434600s  INFO prepare_target{force=false package_id=ethnum v1.5.2 target="ethnum"}: cargo::core::compiler::fingerprint: fingerprint error for ethnum v1.5.2/Check { test: false }/TargetInner { ..: lib_target("ethnum", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ethnum-1.5.2\\src\\lib.rs", Edition2021) }
-   0.325452100s  INFO prepare_target{force=false package_id=ethnum v1.5.2 target="ethnum"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ethnum-8385fe147c021fb7\lib-ethnum`
+   0.406235000s  INFO prepare_target{force=false package_id=ethnum v1.5.2 target="ethnum"}: cargo::core::compiler::fingerprint: fingerprint error for ethnum v1.5.2/Check { test: false }/TargetInner { ..: lib_target("ethnum", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ethnum-1.5.2\\src\\lib.rs", Edition2021) }
+   0.406257000s  INFO prepare_target{force=false package_id=ethnum v1.5.2 target="ethnum"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\ethnum-8385fe147c021fb7\lib-ethnum`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2095,8 +2095,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.344537700s  INFO prepare_target{force=false package_id=soroban-wasmi v0.31.1-soroban.20.0.1 target="soroban_wasmi"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-wasmi v0.31.1-soroban.20.0.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("soroban_wasmi", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-wasmi-0.31.1-soroban.20.0.1\\src\\lib.rs", Edition2021) }
-   0.344568600s  INFO prepare_target{force=false package_id=soroban-wasmi v0.31.1-soroban.20.0.1 target="soroban_wasmi"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\soroban-wasmi-815d26daf9fdf73d\lib-soroban_wasmi`
+   0.420472300s  INFO prepare_target{force=false package_id=soroban-wasmi v0.31.1-soroban.20.0.1 target="soroban_wasmi"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-wasmi v0.31.1-soroban.20.0.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("soroban_wasmi", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-wasmi-0.31.1-soroban.20.0.1\\src\\lib.rs", Edition2021) }
+   0.420508100s  INFO prepare_target{force=false package_id=soroban-wasmi v0.31.1-soroban.20.0.1 target="soroban_wasmi"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\soroban-wasmi-815d26daf9fdf73d\lib-soroban_wasmi`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2127,8 +2127,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.345174900s  INFO prepare_target{force=false package_id=smallvec v1.15.1 target="smallvec"}: cargo::core::compiler::fingerprint: fingerprint error for smallvec v1.15.1/Check { test: false }/TargetInner { ..: lib_target("smallvec", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\smallvec-1.15.1\\src\\lib.rs", Edition2018) }
-   0.345191800s  INFO prepare_target{force=false package_id=smallvec v1.15.1 target="smallvec"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\smallvec-a5afbfbd642aca20\lib-smallvec`
+   0.421300700s  INFO prepare_target{force=false package_id=smallvec v1.15.1 target="smallvec"}: cargo::core::compiler::fingerprint: fingerprint error for smallvec v1.15.1/Check { test: false }/TargetInner { ..: lib_target("smallvec", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\smallvec-1.15.1\\src\\lib.rs", Edition2018) }
+   0.421324000s  INFO prepare_target{force=false package_id=smallvec v1.15.1 target="smallvec"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\smallvec-a5afbfbd642aca20\lib-smallvec`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2160,8 +2160,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.345621100s  INFO prepare_target{force=false package_id=spin v0.9.8 target="spin"}: cargo::core::compiler::fingerprint: fingerprint error for spin v0.9.8/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("spin", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\spin-0.9.8\\src\\lib.rs", Edition2015) }
-   0.345636800s  INFO prepare_target{force=false package_id=spin v0.9.8 target="spin"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\spin-17f2a689fd00bd22\lib-spin`
+   0.422026100s  INFO prepare_target{force=false package_id=spin v0.9.8 target="spin"}: cargo::core::compiler::fingerprint: fingerprint error for spin v0.9.8/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("spin", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\spin-0.9.8\\src\\lib.rs", Edition2015) }
+   0.422057500s  INFO prepare_target{force=false package_id=spin v0.9.8 target="spin"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\spin-17f2a689fd00bd22\lib-spin`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2193,8 +2193,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.346027000s  INFO prepare_target{force=false package_id=wasmi_arena v0.4.1 target="wasmi_arena"}: cargo::core::compiler::fingerprint: fingerprint error for wasmi_arena v0.4.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("wasmi_arena", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\wasmi_arena-0.4.1\\src\\lib.rs", Edition2021) }
-   0.346042100s  INFO prepare_target{force=false package_id=wasmi_arena v0.4.1 target="wasmi_arena"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\wasmi_arena-fa869b6f752cd8a4\lib-wasmi_arena`
+   0.422942400s  INFO prepare_target{force=false package_id=wasmi_arena v0.4.1 target="wasmi_arena"}: cargo::core::compiler::fingerprint: fingerprint error for wasmi_arena v0.4.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("wasmi_arena", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\wasmi_arena-0.4.1\\src\\lib.rs", Edition2021) }
+   0.422974200s  INFO prepare_target{force=false package_id=wasmi_arena v0.4.1 target="wasmi_arena"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\wasmi_arena-fa869b6f752cd8a4\lib-wasmi_arena`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2226,8 +2226,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.346492900s  INFO prepare_target{force=false package_id=wasmi_core v0.13.0 target="wasmi_core"}: cargo::core::compiler::fingerprint: fingerprint error for wasmi_core v0.13.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("wasmi_core", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\wasmi_core-0.13.0\\src\\lib.rs", Edition2021) }
-   0.346509000s  INFO prepare_target{force=false package_id=wasmi_core v0.13.0 target="wasmi_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\wasmi_core-c0e8836a4285ff78\lib-wasmi_core`
+   0.423953400s  INFO prepare_target{force=false package_id=wasmi_core v0.13.0 target="wasmi_core"}: cargo::core::compiler::fingerprint: fingerprint error for wasmi_core v0.13.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("wasmi_core", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\wasmi_core-0.13.0\\src\\lib.rs", Edition2021) }
+   0.423979900s  INFO prepare_target{force=false package_id=wasmi_core v0.13.0 target="wasmi_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\wasmi_core-c0e8836a4285ff78\lib-wasmi_core`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2259,8 +2259,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.347065900s  INFO prepare_target{force=false package_id=downcast-rs v1.2.1 target="downcast_rs"}: cargo::core::compiler::fingerprint: fingerprint error for downcast-rs v1.2.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("downcast_rs", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\downcast-rs-1.2.1\\src\\lib.rs", Edition2015) }
-   0.347082100s  INFO prepare_target{force=false package_id=downcast-rs v1.2.1 target="downcast_rs"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\downcast-rs-27bb1cd9652c2f5a\lib-downcast_rs`
+   0.424746400s  INFO prepare_target{force=false package_id=downcast-rs v1.2.1 target="downcast_rs"}: cargo::core::compiler::fingerprint: fingerprint error for downcast-rs v1.2.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("downcast_rs", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\downcast-rs-1.2.1\\src\\lib.rs", Edition2015) }
+   0.424771500s  INFO prepare_target{force=false package_id=downcast-rs v1.2.1 target="downcast_rs"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\downcast-rs-27bb1cd9652c2f5a\lib-downcast_rs`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2293,8 +2293,8 @@ Stack backtrace:
   24: git_midx_writer_dump
   25: BaseThreadInitThunk
   26: RtlUserThreadStart
-   0.347483800s  INFO prepare_target{force=false package_id=libm v0.2.15 target="libm"}: cargo::core::compiler::fingerprint: fingerprint error for libm v0.2.15/Check { test: false }/TargetInner { ..: lib_target("libm", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\libm-0.2.15\\src\\lib.rs", Edition2021) }
-   0.347500000s  INFO prepare_target{force=false package_id=libm v0.2.15 target="libm"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\libm-34fae88177998145\lib-libm`
+   0.425463100s  INFO prepare_target{force=false package_id=libm v0.2.15 target="libm"}: cargo::core::compiler::fingerprint: fingerprint error for libm v0.2.15/Check { test: false }/TargetInner { ..: lib_target("libm", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\libm-0.2.15\\src\\lib.rs", Edition2021) }
+   0.425488200s  INFO prepare_target{force=false package_id=libm v0.2.15 target="libm"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\libm-34fae88177998145\lib-libm`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2327,8 +2327,8 @@ Stack backtrace:
   24: git_midx_writer_dump
   25: BaseThreadInitThunk
   26: RtlUserThreadStart
-   0.348854000s  INFO prepare_target{force=false package_id=wasmparser-nostd v0.100.2 target="wasmparser_nostd"}: cargo::core::compiler::fingerprint: fingerprint error for wasmparser-nostd v0.100.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("wasmparser_nostd", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\wasmparser-nostd-0.100.2\\src\\lib.rs", Edition2021) }
-   0.348870500s  INFO prepare_target{force=false package_id=wasmparser-nostd v0.100.2 target="wasmparser_nostd"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\wasmparser-nostd-186af8732ac7f762\lib-wasmparser_nostd`
+   0.427420000s  INFO prepare_target{force=false package_id=wasmparser-nostd v0.100.2 target="wasmparser_nostd"}: cargo::core::compiler::fingerprint: fingerprint error for wasmparser-nostd v0.100.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("wasmparser_nostd", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\wasmparser-nostd-0.100.2\\src\\lib.rs", Edition2021) }
+   0.427457100s  INFO prepare_target{force=false package_id=wasmparser-nostd v0.100.2 target="wasmparser_nostd"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\wasmparser-nostd-186af8732ac7f762\lib-wasmparser_nostd`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2360,8 +2360,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.349287700s  INFO prepare_target{force=false package_id=indexmap-nostd v0.4.0 target="indexmap_nostd"}: cargo::core::compiler::fingerprint: fingerprint error for indexmap-nostd v0.4.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("indexmap_nostd", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\indexmap-nostd-0.4.0\\src\\lib.rs", Edition2021) }
-   0.349302800s  INFO prepare_target{force=false package_id=indexmap-nostd v0.4.0 target="indexmap_nostd"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\indexmap-nostd-4335dc830c0697fc\lib-indexmap_nostd`
+   0.428693000s  INFO prepare_target{force=false package_id=indexmap-nostd v0.4.0 target="indexmap_nostd"}: cargo::core::compiler::fingerprint: fingerprint error for indexmap-nostd v0.4.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("indexmap_nostd", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\indexmap-nostd-0.4.0\\src\\lib.rs", Edition2021) }
+   0.428719100s  INFO prepare_target{force=false package_id=indexmap-nostd v0.4.0 target="indexmap_nostd"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\indexmap-nostd-4335dc830c0697fc\lib-indexmap_nostd`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2394,8 +2394,8 @@ Stack backtrace:
   24: git_midx_writer_dump
   25: BaseThreadInitThunk
   26: RtlUserThreadStart
-   0.349707600s  INFO prepare_target{force=false package_id=static_assertions v1.1.0 target="static_assertions"}: cargo::core::compiler::fingerprint: fingerprint error for static_assertions v1.1.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("static_assertions", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\static_assertions-1.1.0\\src\\lib.rs", Edition2015) }
-   0.349723000s  INFO prepare_target{force=false package_id=static_assertions v1.1.0 target="static_assertions"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\static_assertions-26b437a9bbc6e300\lib-static_assertions`
+   0.429445900s  INFO prepare_target{force=false package_id=static_assertions v1.1.0 target="static_assertions"}: cargo::core::compiler::fingerprint: fingerprint error for static_assertions v1.1.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("static_assertions", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\static_assertions-1.1.0\\src\\lib.rs", Edition2015) }
+   0.429475600s  INFO prepare_target{force=false package_id=static_assertions v1.1.0 target="static_assertions"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\static_assertions-26b437a9bbc6e300\lib-static_assertions`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2426,8 +2426,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.350285800s  INFO prepare_target{force=false package_id=stellar-xdr v23.0.0 target="stellar_xdr"}: cargo::core::compiler::fingerprint: fingerprint error for stellar-xdr v23.0.0/Check { test: false }/TargetInner { ..: lib_target("stellar_xdr", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\stellar-xdr-23.0.0\\src\\lib.rs", Edition2021) }
-   0.350305100s  INFO prepare_target{force=false package_id=stellar-xdr v23.0.0 target="stellar_xdr"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\stellar-xdr-4f6c79ab4bdce785\lib-stellar_xdr`
+   0.430430700s  INFO prepare_target{force=false package_id=stellar-xdr v23.0.0 target="stellar_xdr"}: cargo::core::compiler::fingerprint: fingerprint error for stellar-xdr v23.0.0/Check { test: false }/TargetInner { ..: lib_target("stellar_xdr", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\stellar-xdr-23.0.0\\src\\lib.rs", Edition2021) }
+   0.430457400s  INFO prepare_target{force=false package_id=stellar-xdr v23.0.0 target="stellar_xdr"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\stellar-xdr-4f6c79ab4bdce785\lib-stellar_xdr`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2458,8 +2458,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.351074200s  INFO prepare_target{force=false package_id=base64 v0.22.1 target="base64"}: cargo::core::compiler::fingerprint: fingerprint error for base64 v0.22.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("base64", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\base64-0.22.1\\src\\lib.rs", Edition2018) }
-   0.351089900s  INFO prepare_target{force=false package_id=base64 v0.22.1 target="base64"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\base64-d22485985cdca7d1\lib-base64`
+   0.431470300s  INFO prepare_target{force=false package_id=base64 v0.22.1 target="base64"}: cargo::core::compiler::fingerprint: fingerprint error for base64 v0.22.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("base64", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\base64-0.22.1\\src\\lib.rs", Edition2018) }
+   0.431494700s  INFO prepare_target{force=false package_id=base64 v0.22.1 target="base64"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\base64-d22485985cdca7d1\lib-base64`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2491,8 +2491,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.351541200s  INFO prepare_target{force=false package_id=escape-bytes v0.1.1 target="escape_bytes"}: cargo::core::compiler::fingerprint: fingerprint error for escape-bytes v0.1.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("escape_bytes", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\escape-bytes-0.1.1\\src\\lib.rs", Edition2021) }
-   0.351556900s  INFO prepare_target{force=false package_id=escape-bytes v0.1.1 target="escape_bytes"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\escape-bytes-f63458ffebd205f0\lib-escape_bytes`
+   0.432468900s  INFO prepare_target{force=false package_id=escape-bytes v0.1.1 target="escape_bytes"}: cargo::core::compiler::fingerprint: fingerprint error for escape-bytes v0.1.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("escape_bytes", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\escape-bytes-0.1.1\\src\\lib.rs", Edition2021) }
+   0.432493900s  INFO prepare_target{force=false package_id=escape-bytes v0.1.1 target="escape_bytes"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\escape-bytes-f63458ffebd205f0\lib-escape_bytes`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2524,8 +2524,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.352044600s  INFO prepare_target{force=false package_id=hex v0.4.3 target="hex"}: cargo::core::compiler::fingerprint: fingerprint error for hex v0.4.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hex", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hex-0.4.3\\src\\lib.rs", Edition2018) }
-   0.352060600s  INFO prepare_target{force=false package_id=hex v0.4.3 target="hex"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\hex-c6775a40ace8ba56\lib-hex`
+   0.433121700s  INFO prepare_target{force=false package_id=hex v0.4.3 target="hex"}: cargo::core::compiler::fingerprint: fingerprint error for hex v0.4.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hex", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hex-0.4.3\\src\\lib.rs", Edition2018) }
+   0.433143300s  INFO prepare_target{force=false package_id=hex v0.4.3 target="hex"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\hex-c6775a40ace8ba56\lib-hex`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2557,8 +2557,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.352565000s  INFO prepare_target{force=false package_id=serde_with v3.15.1 target="serde_with"}: cargo::core::compiler::fingerprint: fingerprint error for serde_with v3.15.1/Check { test: false }/TargetInner { ..: lib_target("serde_with", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_with-3.15.1\\src\\lib.rs", Edition2021) }
-   0.352580400s  INFO prepare_target{force=false package_id=serde_with v3.15.1 target="serde_with"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\serde_with-4c06e4141ce46fdd\lib-serde_with`
+   0.433803300s  INFO prepare_target{force=false package_id=serde_with v3.15.1 target="serde_with"}: cargo::core::compiler::fingerprint: fingerprint error for serde_with v3.15.1/Check { test: false }/TargetInner { ..: lib_target("serde_with", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_with-3.15.1\\src\\lib.rs", Edition2021) }
+   0.433826400s  INFO prepare_target{force=false package_id=serde_with v3.15.1 target="serde_with"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\serde_with-4c06e4141ce46fdd\lib-serde_with`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2590,8 +2590,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.353127200s  INFO prepare_target{force=false package_id=schemars v0.8.22 target="schemars"}: cargo::core::compiler::fingerprint: fingerprint error for schemars v0.8.22/Check { test: false }/TargetInner { ..: lib_target("schemars", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\schemars-0.8.22\\src\\lib.rs", Edition2021) }
-   0.353147400s  INFO prepare_target{force=false package_id=schemars v0.8.22 target="schemars"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\schemars-821611cf320a9475\lib-schemars`
+   0.434839900s  INFO prepare_target{force=false package_id=schemars v0.8.22 target="schemars"}: cargo::core::compiler::fingerprint: fingerprint error for schemars v0.8.22/Check { test: false }/TargetInner { ..: lib_target("schemars", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\schemars-0.8.22\\src\\lib.rs", Edition2021) }
+   0.434864500s  INFO prepare_target{force=false package_id=schemars v0.8.22 target="schemars"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\schemars-821611cf320a9475\lib-schemars`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2624,8 +2624,8 @@ Stack backtrace:
   24: git_midx_writer_dump
   25: BaseThreadInitThunk
   26: RtlUserThreadStart
-   0.353678700s  INFO prepare_target{force=false package_id=dyn-clone v1.0.20 target="dyn_clone"}: cargo::core::compiler::fingerprint: fingerprint error for dyn-clone v1.0.20/Check { test: false }/TargetInner { ..: lib_target("dyn_clone", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\dyn-clone-1.0.20\\src\\lib.rs", Edition2018) }
-   0.353694200s  INFO prepare_target{force=false package_id=dyn-clone v1.0.20 target="dyn_clone"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\dyn-clone-03cda98be49c2bae\lib-dyn_clone`
+   0.435791100s  INFO prepare_target{force=false package_id=dyn-clone v1.0.20 target="dyn_clone"}: cargo::core::compiler::fingerprint: fingerprint error for dyn-clone v1.0.20/Check { test: false }/TargetInner { ..: lib_target("dyn_clone", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\dyn-clone-1.0.20\\src\\lib.rs", Edition2018) }
+   0.435819800s  INFO prepare_target{force=false package_id=dyn-clone v1.0.20 target="dyn_clone"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\dyn-clone-03cda98be49c2bae\lib-dyn_clone`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2659,8 +2659,8 @@ Stack backtrace:
   25: git_midx_writer_dump
   26: BaseThreadInitThunk
   27: RtlUserThreadStart
-   0.354189100s  INFO prepare_target{force=false package_id=stellar-strkey v0.0.13 target="stellar_strkey"}: cargo::core::compiler::fingerprint: fingerprint error for stellar-strkey v0.0.13/Check { test: false }/TargetInner { ..: lib_target("stellar_strkey", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\stellar-strkey-0.0.13\\src\\lib.rs", Edition2021) }
-   0.354208800s  INFO prepare_target{force=false package_id=stellar-strkey v0.0.13 target="stellar_strkey"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\stellar-strkey-649c172694629741\lib-stellar_strkey`
+   0.436683000s  INFO prepare_target{force=false package_id=stellar-strkey v0.0.13 target="stellar_strkey"}: cargo::core::compiler::fingerprint: fingerprint error for stellar-strkey v0.0.13/Check { test: false }/TargetInner { ..: lib_target("stellar_strkey", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\stellar-strkey-0.0.13\\src\\lib.rs", Edition2021) }
+   0.436712500s  INFO prepare_target{force=false package_id=stellar-strkey v0.0.13 target="stellar_strkey"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\stellar-strkey-649c172694629741\lib-stellar_strkey`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2692,8 +2692,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.354814400s  INFO prepare_target{force=false package_id=data-encoding v2.9.0 target="data_encoding"}: cargo::core::compiler::fingerprint: fingerprint error for data-encoding v2.9.0/Check { test: false }/TargetInner { ..: lib_target("data_encoding", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\data-encoding-2.9.0\\src\\lib.rs", Edition2018) }
-   0.354833900s  INFO prepare_target{force=false package_id=data-encoding v2.9.0 target="data_encoding"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\data-encoding-44cea99de64c7a86\lib-data_encoding`
+   0.437747900s  INFO prepare_target{force=false package_id=data-encoding v2.9.0 target="data_encoding"}: cargo::core::compiler::fingerprint: fingerprint error for data-encoding v2.9.0/Check { test: false }/TargetInner { ..: lib_target("data_encoding", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\data-encoding-2.9.0\\src\\lib.rs", Edition2018) }
+   0.437773600s  INFO prepare_target{force=false package_id=data-encoding v2.9.0 target="data_encoding"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\data-encoding-44cea99de64c7a86\lib-data_encoding`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2726,8 +2726,8 @@ Stack backtrace:
   24: git_midx_writer_dump
   25: BaseThreadInitThunk
   26: RtlUserThreadStart
-   0.356263300s  INFO prepare_target{force=false package_id=wasmparser v0.116.1 target="wasmparser"}: cargo::core::compiler::fingerprint: fingerprint error for wasmparser v0.116.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("wasmparser", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\wasmparser-0.116.1\\src\\lib.rs", Edition2021) }
-   0.356279800s  INFO prepare_target{force=false package_id=wasmparser v0.116.1 target="wasmparser"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\wasmparser-c3ff38f61b75192d\lib-wasmparser`
+   0.439747500s  INFO prepare_target{force=false package_id=wasmparser v0.116.1 target="wasmparser"}: cargo::core::compiler::fingerprint: fingerprint error for wasmparser v0.116.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("wasmparser", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\wasmparser-0.116.1\\src\\lib.rs", Edition2021) }
+   0.439772800s  INFO prepare_target{force=false package_id=wasmparser v0.116.1 target="wasmparser"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\wasmparser-c3ff38f61b75192d\lib-wasmparser`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2758,8 +2758,8 @@ Stack backtrace:
   22: git_midx_writer_dump
   23: BaseThreadInitThunk
   24: RtlUserThreadStart
-   0.356745100s  INFO prepare_target{force=false package_id=indexmap v2.12.0 target="indexmap"}: cargo::core::compiler::fingerprint: fingerprint error for indexmap v2.12.0/Check { test: false }/TargetInner { benched: false, ..: lib_target("indexmap", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\indexmap-2.12.0\\src\\lib.rs", Edition2021) }
-   0.356761000s  INFO prepare_target{force=false package_id=indexmap v2.12.0 target="indexmap"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\indexmap-9982404e268028b9\lib-indexmap`
+   0.440667200s  INFO prepare_target{force=false package_id=indexmap v2.12.0 target="indexmap"}: cargo::core::compiler::fingerprint: fingerprint error for indexmap v2.12.0/Check { test: false }/TargetInner { benched: false, ..: lib_target("indexmap", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\indexmap-2.12.0\\src\\lib.rs", Edition2021) }
+   0.440694900s  INFO prepare_target{force=false package_id=indexmap v2.12.0 target="indexmap"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\indexmap-9982404e268028b9\lib-indexmap`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2791,8 +2791,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.357268000s  INFO prepare_target{force=false package_id=equivalent v1.0.2 target="equivalent"}: cargo::core::compiler::fingerprint: fingerprint error for equivalent v1.0.2/Check { test: false }/TargetInner { ..: lib_target("equivalent", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\equivalent-1.0.2\\src\\lib.rs", Edition2015) }
-   0.357284600s  INFO prepare_target{force=false package_id=equivalent v1.0.2 target="equivalent"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\equivalent-a82a1228783d4ddb\lib-equivalent`
+   0.441467700s  INFO prepare_target{force=false package_id=equivalent v1.0.2 target="equivalent"}: cargo::core::compiler::fingerprint: fingerprint error for equivalent v1.0.2/Check { test: false }/TargetInner { ..: lib_target("equivalent", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\equivalent-1.0.2\\src\\lib.rs", Edition2015) }
+   0.441490400s  INFO prepare_target{force=false package_id=equivalent v1.0.2 target="equivalent"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\equivalent-a82a1228783d4ddb\lib-equivalent`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2825,8 +2825,8 @@ Stack backtrace:
   24: git_midx_writer_dump
   25: BaseThreadInitThunk
   26: RtlUserThreadStart
-   0.357775400s  INFO prepare_target{force=false package_id=hashbrown v0.16.0 target="hashbrown"}: cargo::core::compiler::fingerprint: fingerprint error for hashbrown v0.16.0/Check { test: false }/TargetInner { ..: lib_target("hashbrown", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hashbrown-0.16.0\\src\\lib.rs", Edition2021) }
-   0.357790500s  INFO prepare_target{force=false package_id=hashbrown v0.16.0 target="hashbrown"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\hashbrown-ac26a93fa943501d\lib-hashbrown`
+   0.442074000s  INFO prepare_target{force=false package_id=hashbrown v0.16.0 target="hashbrown"}: cargo::core::compiler::fingerprint: fingerprint error for hashbrown v0.16.0/Check { test: false }/TargetInner { ..: lib_target("hashbrown", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hashbrown-0.16.0\\src\\lib.rs", Edition2021) }
+   0.442094800s  INFO prepare_target{force=false package_id=hashbrown v0.16.0 target="hashbrown"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\hashbrown-ac26a93fa943501d\lib-hashbrown`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2859,8 +2859,8 @@ Stack backtrace:
   24: git_midx_writer_dump
   25: BaseThreadInitThunk
   26: RtlUserThreadStart
-   0.358226300s  INFO prepare_target{force=false package_id=semver v1.0.27 target="semver"}: cargo::core::compiler::fingerprint: fingerprint error for semver v1.0.27/Check { test: false }/TargetInner { ..: lib_target("semver", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\semver-1.0.27\\src\\lib.rs", Edition2018) }
-   0.358242400s  INFO prepare_target{force=false package_id=semver v1.0.27 target="semver"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\semver-67cdfc976ead7a29\lib-semver`
+   0.442659000s  INFO prepare_target{force=false package_id=semver v1.0.27 target="semver"}: cargo::core::compiler::fingerprint: fingerprint error for semver v1.0.27/Check { test: false }/TargetInner { ..: lib_target("semver", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\semver-1.0.27\\src\\lib.rs", Edition2018) }
+   0.442682000s  INFO prepare_target{force=false package_id=semver v1.0.27 target="semver"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\semver-67cdfc976ead7a29\lib-semver`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2892,8 +2892,8 @@ Stack backtrace:
   23: git_midx_writer_dump
   24: BaseThreadInitThunk
   25: RtlUserThreadStart
-   0.359619400s  INFO prepare_target{force=false package_id=soroban-ledger-snapshot v23.0.3 target="soroban_ledger_snapshot"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-ledger-snapshot v23.0.3/Check { test: false }/TargetInner { ..: lib_target("soroban_ledger_snapshot", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-ledger-snapshot-23.0.3\\src\\lib.rs", Edition2021) }
-   0.359635800s  INFO prepare_target{force=false package_id=soroban-ledger-snapshot v23.0.3 target="soroban_ledger_snapshot"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\soroban-ledger-snapshot-e8752eeb1c6d6b1f\lib-soroban_ledger_snapshot`
+   0.445192400s  INFO prepare_target{force=false package_id=soroban-ledger-snapshot v23.0.3 target="soroban_ledger_snapshot"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-ledger-snapshot v23.0.3/Check { test: false }/TargetInner { ..: lib_target("soroban_ledger_snapshot", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-ledger-snapshot-23.0.3\\src\\lib.rs", Edition2021) }
+   0.445222900s  INFO prepare_target{force=false package_id=soroban-ledger-snapshot v23.0.3 target="soroban_ledger_snapshot"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\soroban-ledger-snapshot-e8752eeb1c6d6b1f\lib-soroban_ledger_snapshot`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2922,8 +2922,8 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.360434300s  INFO prepare_target{force=false package_id=thiserror v1.0.69 target="thiserror"}: cargo::core::compiler::fingerprint: fingerprint error for thiserror v1.0.69/Check { test: false }/TargetInner { ..: lib_target("thiserror", ["lib"], "C:\\Users\\USER\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\thiserror-1.0.69\\src\\lib.rs", Edition2021) }
-   0.360449900s  INFO prepare_target{force=false package_id=thiserror v1.0.69 target="thiserror"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\thiserror-9d404b6acff3d80c\lib-thiserror`
+   0.446467700s  INFO prepare_target{force=false package_id=thiserror v1.0.69 target="thiserror"}: cargo::core::compiler::fingerprint: fingerprint error for thiserror v1.0.69/Check { test: false }/TargetInner { ..: lib_target("thiserror", ["lib"], "C:\\Users\\carlo\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\thiserror-1.0.69\\src\\lib.rs", Edition2021) }
+   0.446508600s  INFO prepare_target{force=false package_id=thiserror v1.0.69 target="thiserror"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\thiserror-9d404b6acff3d80c\lib-thiserror`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2953,8 +2953,8 @@ Stack backtrace:
   21: git_midx_writer_dump
   22: BaseThreadInitThunk
   23: RtlUserThreadStart
-   0.381809700s  INFO prepare_target{force=false package_id=hello-world v0.0.0 (C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\contracts\hello-world) target="hello_world"}: cargo::core::compiler::fingerprint: fingerprint error for hello-world v0.0.0 (C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\contracts\hello-world)/Check { test: true }/TargetInner { name_inferred: true, doctest: false, ..: lib_target("hello_world", ["lib", "cdylib"], "C:\\Users\\USER\\Desktop\\Lenguajes\\Rust\\Hackathon_Proyecto\\de-grant-contract\\contracts\\hello-world\\src\\lib.rs", Edition2021) }
-   0.381846400s  INFO prepare_target{force=false package_id=hello-world v0.0.0 (C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\contracts\hello-world) target="hello_world"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\hello-world-63a26cc902a4d49a\test-lib-hello_world`
+   0.455150600s  INFO prepare_target{force=false package_id=hello-world v0.0.0 (C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\contracts\hello-world) target="hello_world"}: cargo::core::compiler::fingerprint: fingerprint error for hello-world v0.0.0 (C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\contracts\hello-world)/Check { test: true }/TargetInner { name_inferred: true, doctest: false, ..: lib_target("hello_world", ["lib", "cdylib"], "C:\\Users\\carlo\\OneDrive\\Desktop\\Hackathon_Proyecto\\de-grant-contract\\contracts\\hello-world\\src\\lib.rs", Edition2021) }
+   0.455188000s  INFO prepare_target{force=false package_id=hello-world v0.0.0 (C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\contracts\hello-world) target="hello_world"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\target\debug\.fingerprint\hello-world-63a26cc902a4d49a\test-lib-hello_world`
 
 Caused by:
     El sistema no puede encontrar el archivo especificado. (os error 2)
@@ -2985,67 +2985,67 @@ Stack backtrace:
     Checking subtle v2.6.1
     Checking const-oid v0.9.6
     Checking typenum v1.19.0
-    Checking zerocopy v0.8.27
     Checking num-traits v0.2.19
     Checking zeroize v1.8.2
+    Checking zerocopy v0.8.27
     Checking serde_core v1.0.228
     Checking cpufeatures v0.2.17
     Checking base16ct v0.2.0
-    Checking either v1.15.0
     Checking memchr v2.7.6
-    Checking getrandom v0.2.16
-    Checking itoa v1.0.15
     Checking once_cell v1.21.3
+    Checking getrandom v0.2.16
+    Checking either v1.15.0
     Checking ryu v1.0.20
-    Checking der v0.7.10
+    Checking itoa v1.0.15
     Checking dyn-clone v1.0.20
-    Checking rand_core v0.6.4
-    Checking itertools v0.10.5
     Checking libm v0.2.15
-    Checking downcast-rs v1.2.1
-    Checking indexmap-nostd v0.4.0
-    Checking data-encoding v2.9.0
-    Checking ff v0.13.1
+    Checking der v0.7.10
+    Checking rand_core v0.6.4
     Checking equivalent v1.0.2
+    Checking data-encoding v2.9.0
+    Checking indexmap-nostd v0.4.0
+    Checking itertools v0.10.5
+    Checking ff v0.13.1
+    Checking downcast-rs v1.2.1
     Checking hashbrown v0.16.0
     Checking wasmparser-nostd v0.100.2
-    Checking generic-array v0.14.9
     Checking arbitrary v1.3.2
     Checking group v0.13.0
     Checking stellar-strkey v0.0.13
-    Checking num-integer v0.1.46
-    Checking ethnum v1.5.2
-    Checking escape-bytes v0.1.1
+    Checking generic-array v0.14.9
     Checking smallvec v1.15.1
-    Checking num-bigint v0.4.6
-    Checking spin v0.9.8
-    Checking indexmap v2.12.0
-    Checking base64 v0.22.1
-    Checking wasmi_arena v0.4.1
+    Checking num-integer v0.1.46
     Checking semver v1.0.27
-    Checking block-buffer v0.10.4
-    Checking crypto-common v0.1.6
-    Checking sec1 v0.7.3
-    Checking crypto-bigint v0.5.5
+    Checking spin v0.9.8
+    Checking wasmi_arena v0.4.1
+    Checking num-bigint v0.4.6
+    Checking base64 v0.22.1
+    Checking indexmap v2.12.0
+    Checking escape-bytes v0.1.1
+    Checking ethnum v1.5.2
     Checking wasmi_core v0.13.0
-    Checking digest v0.10.7
     Checking keccak v0.1.5
     Checking static_assertions v1.1.0
     Checking hex-literal v0.4.1
     Checking dtor v0.1.0
+    Checking crypto-common v0.1.6
+    Checking block-buffer v0.10.4
+    Checking sec1 v0.7.3
+    Checking crypto-bigint v0.5.5
     Checking thiserror v1.0.69
+    Checking ctor v0.5.0
+    Checking digest v0.10.7
     Checking ppv-lite86 v0.2.21
-    Checking signature v2.2.0
-    Checking sha2 v0.10.9
-    Checking hmac v0.12.1
     Checking ahash v0.8.12
+    Checking sha2 v0.10.9
+    Checking signature v2.2.0
+    Checking hmac v0.12.1
     Checking curve25519-dalek v4.1.3
+    Checking hashbrown v0.13.2
     Checking sha3 v0.10.8
     Checking wasmparser v0.116.1
-    Checking ed25519 v2.2.3
     Checking rfc6979 v0.4.0
-    Checking hashbrown v0.13.2
-    Checking ctor v0.5.0
+    Checking ed25519 v2.2.3
     Checking rand_chacha v0.3.1
     Checking serde v1.0.228
     Checking serde_json v1.0.145
@@ -3056,12 +3056,12 @@ Stack backtrace:
     Checking schemars v0.8.22
     Checking ark-std v0.4.0
     Checking ark-serialize v0.4.2
+    Checking soroban-wasmi v0.31.1-soroban.20.0.1
     Checking ecdsa v0.16.9
     Checking primeorder v0.13.6
-    Checking soroban-wasmi v0.31.1-soroban.20.0.1
     Checking ark-ff v0.4.2
-    Checking k256 v0.13.4
     Checking p256 v0.13.2
+    Checking k256 v0.13.4
     Checking serde_with v3.15.1
     Checking stellar-xdr v23.0.0
     Checking ark-poly v0.4.2
@@ -3071,5 +3071,5 @@ Stack backtrace:
     Checking soroban-env-host v23.0.1
     Checking soroban-ledger-snapshot v23.0.3
     Checking soroban-sdk v23.0.3
-    Checking hello-world v0.0.0 (C:\Users\USER\Desktop\Lenguajes\Rust\Hackathon_Proyecto\de-grant-contract\contracts\hello-world)
+    Checking hello-world v0.0.0 (C:\Users\carlo\OneDrive\Desktop\Hackathon_Proyecto\de-grant-contract\contracts\hello-world)
 error: could not compile `hello-world` (lib test) due to 5 previous errors; 3 warnings emitted
