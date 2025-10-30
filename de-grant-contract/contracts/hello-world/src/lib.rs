@@ -7,7 +7,7 @@ const TOKEN: Symbol = symbol_short!("TOKEN");
 const ELIGIBLE: Symbol = symbol_short!("ELIGIBLE");
 
 #[contract]
-pub struct Contract;
+pub struct SchoolarshipsContract;
 
 // This is a sample contract. Replace this placeholder with your own contract logic.
 // A corresponding test example is available in `test.rs`.
@@ -19,7 +19,7 @@ pub struct Contract;
 // Refer to the official documentation:
 // <https://developers.stellar.org/docs/build/smart-contracts/overview>.
 #[contractimpl]
-impl Contract {
+impl SchoolarshipsContract {
     /// FUNCIÓN DE INICIALIZACIÓN
     /// Establece el admin y el token de recompensa.
     pub fn initialize(env: Env, admin: Address, token_id: Address) {
@@ -114,5 +114,5 @@ impl Contract {
         vec![&env, String::from_str(&env, "Hello"), to]
     }
 }
-
+#[cfg(test)]
 mod test;
